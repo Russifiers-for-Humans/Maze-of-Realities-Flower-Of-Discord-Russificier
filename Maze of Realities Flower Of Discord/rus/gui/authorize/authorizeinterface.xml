@@ -1,0 +1,1806 @@
+<?xml version="1.0"?>
+<gui name="main">
+	<Resources>data/main.res</Resources>
+	<pos x="0" y="0"/>
+	<mouse_move_parallax>
+		<limit_x>89</limit_x>
+		<limit_y>0</limit_y>
+		<!-- <dead_radius>300</dead_radius>
+		<velocity_max>3</velocity_max>
+		<velocity_inc>0.1</velocity_inc>
+		<velocity_dec>0.1</velocity_dec> -->
+		<debug_bezier>1</debug_bezier>
+	</mouse_move_parallax>
+
+	<ctrls>
+
+		<!-- backs -->
+		<ctrl>
+			<name>back</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>111110</id>
+			<pos x="-44" y="0"/>
+			<width>1455</width>
+			<height>768</height>
+			<sprites>
+				<spt>back_authorize</spt>
+			</sprites>
+			<mouse_move_parallax_factor>-0.04</mouse_move_parallax_factor>
+			<sounds>
+				<sound>
+					<name>main_env</name>
+					<loop>1</loop>
+				</sound>
+			</sounds>
+		</ctrl>
+
+		<ctrl>
+			<name>main_smoke</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>46534375</id>
+			<pos x="0" y="0"/>
+			<particles>
+				<instance>
+					<name>main_smoke</name>
+					<position x="727" y="384"/>
+					<loop>1</loop>
+					<period_time_min_limit>0</period_time_min_limit>
+					<period_time_max_limit>0</period_time_max_limit>
+				</instance>
+			</particles>
+			<mouse_move_parallax_factor>-0.04</mouse_move_parallax_factor>
+			<sounds>
+				<sound>
+					<name>ad_main_mus</name>
+					<loop>1</loop>
+				</sound>
+			</sounds>
+		</ctrl>
+
+		<ctrl>
+			<name>main_fish</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>111111</id>
+			<pos x="601" y="0"/>
+			<width>403</width>
+			<height>205</height>
+			<movies>
+				<instance>
+					<movie>main_fish</movie>
+					<before_draw>true</before_draw>
+				</instance>
+			</movies>
+			<mouse_move_parallax_factor>-0.07</mouse_move_parallax_factor>
+		</ctrl>
+
+		<ctrl>
+			<name>main_particle</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>111113</id>
+			<pos x="196" y="0"/>
+			<width>545</width>
+			<height>270</height>
+			<sprites>
+				<spt>main_particle</spt>
+			</sprites>
+			<mouse_move_parallax_factor>-0.07</mouse_move_parallax_factor>
+		</ctrl>
+
+		<ctrl>
+			<name>main_column</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>111114</id>
+			<pos x="1088" y="0"/>
+			<width>164</width>
+			<height>296</height>
+			<sprites>
+				<spt>main_column</spt>
+			</sprites>
+			<mouse_move_parallax_factor>-0.07</mouse_move_parallax_factor>
+		</ctrl>
+
+		<ctrl>
+			<name>main_column2</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>111115</id>
+			<pos x="714" y="231"/>
+			<width>125</width>
+			<height>148</height>
+			<sprites>
+				<spt>main_column2</spt>
+			</sprites>
+			<mouse_move_parallax_factor>-0.07</mouse_move_parallax_factor>
+		</ctrl>
+		<ctrl>
+			<name>main_portal</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>111116</id>
+			<pos x="406" y="0"/>
+			<width>194</width>
+			<height>229</height>
+			<sprites>
+				<spt>main_portal</spt>
+			</sprites>
+			<mouse_move_parallax_factor>-0.07</mouse_move_parallax_factor>
+		</ctrl>
+		<ctrl>
+			<name>main_bird</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>111117</id>
+			<pos x="-44" y="0"/>
+			<width>386</width>
+			<height>285</height>
+			<movies>
+				<instance>
+					<movie>main_bird</movie>
+					<before_draw>true</before_draw>
+				</instance>
+			</movies>
+			<mouse_move_parallax_factor>-0.07</mouse_move_parallax_factor>
+		</ctrl>
+		<ctrl>
+			<name>main_bird2</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>111118</id>
+			<pos x="-44" y="35"/>
+			<width>390</width>
+			<height>163</height>
+			<movies>
+				<instance>
+					<movie>main_bird2</movie>
+					<before_draw>true</before_draw>
+				</instance>
+			</movies>
+			<mouse_move_parallax_factor>-0.07</mouse_move_parallax_factor>
+		</ctrl>
+		<!-- <ctrl>
+			<name>main_particle2</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>111119</id>
+			<pos x="-44" y="0"/>
+			<width>549</width>
+			<height>588</height>
+			<sprites>
+				<spt>main_particle2</spt>
+			</sprites>
+			<mouse_move_parallax_factor>-0.07</mouse_move_parallax_factor>
+		</ctrl> -->
+		<ctrl>
+			<name>main_planets</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>111120</id>
+			<pos x="1187" y="0"/>
+			<width>80</width>
+			<height>78</height>
+			<sprites>
+				<spt>main_planets</spt>
+			</sprites>
+			<mouse_move_parallax_factor>-0.07</mouse_move_parallax_factor>
+		</ctrl>
+		<ctrl>
+			<name>main_clounds</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>111121</id>
+			<pos x="219" y="0"/>
+			<width>731</width>
+			<height>544</height>
+			<sprites>
+				<spt>main_clounds</spt>
+			</sprites>
+			<mouse_move_parallax_factor>-0.07</mouse_move_parallax_factor>
+		</ctrl>
+		<ctrl>
+			<name>main_bubbles</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>111122</id>
+			<pos x="581" y="0"/>
+			<width>565</width>
+			<height>278</height>
+			<sprites>
+				<spt>main_bubbles</spt>
+			</sprites>
+			<mouse_move_parallax_factor>-0.07</mouse_move_parallax_factor>
+		</ctrl>
+		<ctrl>
+			<name>main_particle3</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>111123</id>
+			<pos x="624" y="0"/>
+			<width>260</width>
+			<height>231</height>
+			<sprites>
+				<spt>main_particle3</spt>
+			</sprites>
+			<mouse_move_parallax_factor>-0.07</mouse_move_parallax_factor>
+		</ctrl>
+		<ctrl>
+			<name>main_clounds2</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>111124</id>
+			<pos x="35" y="0"/>
+			<width>1118</width>
+			<height>346</height>
+			<sprites>
+				<spt>main_clounds2</spt>
+			</sprites>
+			<mouse_move_parallax_factor>-0.07</mouse_move_parallax_factor>
+		</ctrl>
+		<ctrl>
+			<name>main_portal2</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>111125</id>
+			<pos x="217" y="0"/>
+			<width>461</width>
+			<height>314</height>
+			<sprites>
+				<spt>main_portal2</spt>
+			</sprites>
+			<mouse_move_parallax_factor>-0.07</mouse_move_parallax_factor>
+		</ctrl>
+		<ctrl>
+			<name>main_clounds3</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>111126</id>
+			<pos x="0" y="0"/>
+			<particles>
+				<instance>
+					<name>main_clounds3</name>
+					<position x="727" y="384"/>
+					<loop>1</loop>
+					<period_time_min_limit>0</period_time_min_limit>
+					<period_time_max_limit>0</period_time_max_limit>
+				</instance>
+			</particles>
+			<mouse_move_parallax_factor>-0.07</mouse_move_parallax_factor>
+		</ctrl>
+		<ctrl>
+			<name>main_fond</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>111127</id>
+			<pos x="-44" y="267"/>
+			<width>1455</width>
+			<height>501</height>
+			<sprites>
+				<spt>main_fond</spt>
+			</sprites>
+			<mouse_move_parallax_factor>-0.07</mouse_move_parallax_factor>
+		</ctrl>
+		<ctrl>
+			<name>main_flower</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>123563245</id>
+			<pos x="923" y="541"/>
+			<width>85</width>
+			<height>75</height>
+			<mask_sprite>main_flower</mask_sprite>
+			<actions>
+				<action event="Click" >
+					<type>PlayMovie</type>
+					<movie_name>main_flower</movie_name>
+					<movie_pos_type>parent_pos</movie_pos_type>
+					<movie_pos_offset_x>0</movie_pos_offset_x>
+					<movie_pos_offset_y>0</movie_pos_offset_y>
+					<movies_max_count>1</movies_max_count>
+					<hide_other_movies>hide_all</hide_other_movies>
+					<stop_other_movies>1</stop_other_movies>
+				</action>
+			</actions>
+			<mouse_move_parallax_factor>-0.07</mouse_move_parallax_factor>
+		</ctrl>
+		<ctrl>
+			<name>main_flower2</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>123563246</id>
+			<pos x="1006" y="538"/>
+			<width>64</width>
+			<height>106</height>
+			<mask_sprite>main_flower2</mask_sprite>
+			<actions>
+				<action event="Click" >
+					<type>PlayMovie</type>
+					<movie_name>main_flower2</movie_name>
+					<movie_pos_type>parent_pos</movie_pos_type>
+					<movie_pos_offset_x>0</movie_pos_offset_x>
+					<movie_pos_offset_y>0</movie_pos_offset_y>
+					<movies_max_count>1</movies_max_count>
+					<hide_other_movies>hide_all</hide_other_movies>
+					<stop_other_movies>1</stop_other_movies>
+				</action>
+			</actions>
+			<mouse_move_parallax_factor>-0.07</mouse_move_parallax_factor>
+		</ctrl>
+		<ctrl>
+			<name>main_flower3</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>123563247</id>
+			<pos x="1012" y="660"/>
+			<width>238</width>
+			<height>108</height>
+			<mask_sprite>main_flower3</mask_sprite>
+			<actions>
+				<action event="Click" >
+					<type>PlayMovie</type>
+					<movie_name>main_flower3</movie_name>
+					<movie_pos_type>parent_pos</movie_pos_type>
+					<movie_pos_offset_x>0</movie_pos_offset_x>
+					<movie_pos_offset_y>0</movie_pos_offset_y>
+					<movies_max_count>1</movies_max_count>
+					<hide_other_movies>hide_all</hide_other_movies>
+					<stop_other_movies>1</stop_other_movies>
+				</action>
+			</actions>
+			<mouse_move_parallax_factor>-0.07</mouse_move_parallax_factor>
+		</ctrl>
+		<ctrl>
+			<name>main_flower4</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>123563248</id>
+			<pos x="1300" y="565"/>
+			<width>111</width>
+			<height>74</height>
+			<mask_sprite>main_flower4</mask_sprite>
+			<actions>
+				<action event="Click" >
+					<type>PlayMovie</type>
+					<movie_name>main_flower4</movie_name>
+					<movie_pos_type>parent_pos</movie_pos_type>
+					<movie_pos_offset_x>0</movie_pos_offset_x>
+					<movie_pos_offset_y>0</movie_pos_offset_y>
+					<movies_max_count>1</movies_max_count>
+					<hide_other_movies>hide_all</hide_other_movies>
+					<stop_other_movies>1</stop_other_movies>
+				</action>
+			</actions>
+			<mouse_move_parallax_factor>-0.07</mouse_move_parallax_factor>
+		</ctrl>
+		<ctrl>
+			<name>main_particle4</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>111128</id>
+			<pos x="0" y="0"/>
+			<particles>
+				<instance>
+					<name>main_particle4</name>
+					<position x="705" y="384"/>
+					<loop>1</loop>
+					<period_time_min_limit>0</period_time_min_limit>
+					<period_time_max_limit>0</period_time_max_limit>
+				</instance>
+			</particles>
+			<mouse_move_parallax_factor>-0.07</mouse_move_parallax_factor>
+		</ctrl>
+		<ctrl>
+			<name>main_pers</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>111129</id>
+			<pos x="725" y="253"/>
+			<width>591</width>
+			<height>384</height>
+			<movies>
+				<instance>
+					<movie>main_pers_idle</movie>
+					<before_draw>true</before_draw>
+				</instance>
+			</movies>
+			<mask_sprite>main_pers-mask</mask_sprite>
+			<actions>
+				<action event="Click" >
+					<type>PlayMovie</type>
+					<movie_name>main_pers_click</movie_name>
+					<movie_pos_type>parent_pos</movie_pos_type>
+					<movie_pos_offset_x>0</movie_pos_offset_x>
+					<movie_pos_offset_y>0</movie_pos_offset_y>
+					<movies_max_count>1</movies_max_count>
+					<hide_other_movies>hide_all</hide_other_movies>
+					<stop_other_movies>1</stop_other_movies>
+				</action>
+			</actions>
+			<mouse_move_parallax_factor>-0.07</mouse_move_parallax_factor>
+		</ctrl>
+		<ctrl>
+			<name>main_bird3</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>111130</id>
+			<pos x="1027" y="453"/>
+			<width>200</width>
+			<height>170</height>
+			<movies>
+				<instance>
+					<movie>main_bird3_idle</movie>
+					<before_draw>true</before_draw>
+				</instance>
+			</movies>
+			<mask_sprite>main_bird3-mask</mask_sprite>
+			<actions>
+				<action event="Click" >
+					<type>PlayMovie</type>
+					<movie_name>main_bird3_click</movie_name>
+					<movie_pos_type>parent_pos</movie_pos_type>
+					<movie_pos_offset_x>0</movie_pos_offset_x>
+					<movie_pos_offset_y>0</movie_pos_offset_y>
+					<movies_max_count>1</movies_max_count>
+					<hide_other_movies>hide_all</hide_other_movies>
+					<stop_other_movies>1</stop_other_movies>
+				</action>
+			</actions>
+			<mouse_move_parallax_factor>-0.07</mouse_move_parallax_factor>
+		</ctrl>
+
+		<!-- buttons -->
+		<ctrl>
+			<name>Extra</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>13</id>
+			<width>271</width>
+			<height>117</height>
+			<pos x="101" y="539"/>
+			<sprites>
+				<spt>main_extra</spt>
+				<spt>main_extra_2</spt>
+				<spt>main_extra_2</spt>
+			</sprites>
+			<mask_sprite>main_extra-mask</mask_sprite>
+			<!-- <btn_text token="auth_extras">
+				<font type="normal" color="ffffffff">data/fonts/gui/bodoni65.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/bodoni65_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/bodoni65.fnt</font>
+				<font type="disabled" color="ffffffff">data/fonts/gui/bodoni65_1.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="0" top="0" right="0" bottom="0" />
+				<angle>0</angle>
+			</btn_text> -->
+			<first_frame_test>1</first_frame_test>
+			<over_sound>button_authorize</over_sound>
+			<special>1</special>
+			<open_dialog_by_click>extra_dialog</open_dialog_by_click>
+			<TweenOverTemplate>OverButton</TweenOverTemplate>
+			<anchor_coef x="0.5" y="0.5"/>
+			<mouse_move_parallax_factor>-0.1</mouse_move_parallax_factor>
+		</ctrl>
+
+		<ctrl>
+			<name>more_games</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<width>316</width>
+			<height>160</height>
+			<id>12</id>
+			<pos x="73" y="389"/>
+			<sprites>
+				<spt>main_more_games</spt>
+				<spt>main_more_games_2</spt>
+				<spt>main_more_games_2</spt>
+			</sprites>
+			<mask_sprite>main_more_games-mask</mask_sprite>
+			<!-- <btn_text token="auth_more_games">
+				<font type="normal" color="ffffffff">data/fonts/gui/bodoni65.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/bodoni65_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/bodoni65.fnt</font>
+				<font type="disabled" color="ffffffff">data/fonts/gui/bodoni65.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="0" top="0" right="0" bottom="0" />
+				<angle>0</angle>
+			</btn_text> -->
+			<open_dialog_by_click>more_games_dialog</open_dialog_by_click>
+			<over_sound>button_authorize</over_sound>
+			<TweenOverTemplate>OverButton</TweenOverTemplate>
+			<anchor_coef x="0.5" y="0.5"/>
+			<mouse_move_parallax_factor>-0.1</mouse_move_parallax_factor>
+		</ctrl>
+
+		<ctrl>
+			<name>Settings</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<width>365</width>
+			<height>231</height>
+			<id>11</id>
+			<pos x="-32" y="263"/>
+			<sprites>
+				<spt>main_settings</spt>
+				<spt>main_settings_2</spt>
+				<spt>main_settings_2</spt>
+			</sprites>
+			<mask_sprite>main_settings-mask</mask_sprite>
+			<!-- <btn_text token="auth_settings">
+				<font type="normal" color="ffffffff">data/fonts/gui/bodoni65.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/bodoni65_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/bodoni65.fnt</font>
+				<font type="disabled" color="ffffffff">data/fonts/gui/bodoni65.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="0" top="0" right="0" bottom="0" />
+				<angle>0</angle>
+			</btn_text> -->
+			<!-- <angle>-10</angle> -->
+			<first_frame_test>1</first_frame_test>
+			<over_sound>button_authorize</over_sound>
+			<TweenOverTemplate>OverButton</TweenOverTemplate>
+			<anchor_coef x="0.5" y="0.5"/>
+			<mouse_move_parallax_factor>-0.1</mouse_move_parallax_factor>
+		</ctrl>
+
+		<ctrl>
+			<name>main_fond2</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>111131</id>
+			<pos x="-44" y="311"/>
+			<width>135</width>
+			<height>233</height>
+			<movies>
+				<instance>
+					<movie>main_fond2</movie>
+					<before_draw>true</before_draw>
+				</instance>
+			</movies>
+			<mouse_move_parallax_factor>-0.1</mouse_move_parallax_factor>
+		</ctrl>
+
+		<ctrl>
+			<name>main_fond3</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>111132</id>
+			<pos x="104" y="625"/>
+			<width>215</width>
+			<height>143</height>
+			<movies>
+				<instance>
+					<movie>main_fond3</movie>
+					<before_draw>true</before_draw>
+				</instance>
+			</movies>
+			<mouse_move_parallax_factor>-0.1</mouse_move_parallax_factor>
+		</ctrl>
+
+		<ctrl>
+			<name>main_fond4</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>111133</id>
+			<pos x="429" y="511"/>
+			<width>45</width>
+			<height>53</height>
+			<movies>
+				<instance>
+					<movie>main_fond4</movie>
+					<before_draw>true</before_draw>
+				</instance>
+			</movies>
+			<mouse_move_parallax_factor>-0.1</mouse_move_parallax_factor>
+		</ctrl>
+
+		<ctrl>
+			<name>Exit</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>14</id>
+			<width>230</width>
+			<height>129</height>
+			<pos x="175" y="624"/>
+			<sprites>
+				<spt>main_exit</spt>
+				<spt>main_exit_2</spt>
+				<spt>main_exit_2</spt>
+			</sprites>
+			<mask_sprite>main_exit-mask</mask_sprite>
+			<!-- <btn_text token="auth_exit">
+				<font type="normal" color="ffffffff">data/fonts/gui/bodoni65.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/bodoni65_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/bodoni65.fnt</font>
+				<font type="disabled" color="ffffffff">data/fonts/gui/bodoni65.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="0" top="0" right="0" bottom="0" />
+				<angle>0</angle>
+			</btn_text> -->
+			<first_frame_test>1</first_frame_test>
+			<over_sound>button_authorize</over_sound>
+			<TweenOverTemplate>OverButton</TweenOverTemplate>
+			<anchor_coef x="0.5" y="0.5"/>
+			<mouse_move_parallax_factor>-0.1</mouse_move_parallax_factor>
+		</ctrl>
+
+		<ctrl>
+			<name>Play</name>
+            <type>Button</type>
+            <enable>1</enable>
+            <visible>1</visible>
+            <subtype>box</subtype>
+			<width>258</width>
+			<height>192</height>
+			<id>3245365</id>
+			<pos x="436" y="171" />
+			<sprites>
+				<spt>main_play</spt>
+				<spt>main_play_2</spt>
+				<spt>main_play_2</spt>
+			</sprites>
+			<mask_sprite>main_play-mask</mask_sprite>
+			<!-- <btn_text token="auth_play">
+				<font type="normal" color="ffffffff">data/fonts/gui/bernard110.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/bernard110_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/bernard110_on.fnt</font>
+				<font type="disabled" color="ffffffff">data/fonts/gui/bernard110.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="0" top="0" right="0" bottom="0" />
+				<angle>0</angle>
+			</btn_text> -->
+			<over_sound>button_authorize</over_sound>
+			<anchor_coef x="0.5" y="0.5"/>
+			<TweenOverTemplate>OverButton</TweenOverTemplate>
+		</ctrl>
+
+		<!-- logo -->
+		<ctrl>
+			<name>logo</name>
+			<type>ClickerBackObject</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>21</id>
+			<pos x="757" y="0"/>
+			<width>564</width>
+			<height>400</height>
+			<mask_sprite>main_logo-mask</mask_sprite>
+			<movies>
+				<instance>
+					<movie>logo_idle</movie>
+					<before_draw>true</before_draw>
+				</instance>
+			</movies>
+			<state_loop>1</state_loop><!--  стейт в которой перейдет когда дойдет до конца -->
+			<additional_params size="1">
+				<options parameter="idle_movies" value="logo_idle|logo_idle2|logo_idle3|logo_idle" />
+				<options parameter="go_movies" value="logo_click|logo_click2|logo_click3|logo_click" />
+			</additional_params>
+		</ctrl>
+		<ctrl>
+			<name>logo_inscription</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>59989558</id>
+			<pos x="920" y="126"/>
+			<width>233</width>
+			<height>157</height>
+			<sprites>
+				<spt>main_logo_inscription</spt>
+			</sprites>
+		</ctrl>
+		<ctrl>
+			<name>main_collectors_edition</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>3242356442</id>
+			<pos x="965" y="294"/>
+			<width>184</width>
+			<height>11</height>
+			<sprites>
+				<spt>main_collectors_edition</spt>
+			</sprites>
+		</ctrl>
+
+		<ctrl>
+			<name>ch_profile</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>15</id>
+			<pos x="481" y="650"/>
+			<standart>1</standart>
+			<sprites>
+				<spt>main_profile</spt>
+				<spt>main_profile_2</spt>
+				<spt>main_profile_2</spt>
+			</sprites>
+			<mask_sprite>main_profile-mask</mask_sprite>	
+			<hover_group>name_welcome|profile_change</hover_group>
+			<!-- <btn_text token="auth_hello">	
+				<font type="normal" color="ffffffff">data/fonts/gui/bodoni65.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/bodoni65_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/bodoni65_on.fnt</font>
+				<font type="disabled" color="ffffffff">data/fonts/gui/bodoni65.fnt</font>
+				<align>TS_ALIGNHLEFT | TS_ALIGNVTOP | TS_MULTILINE</align>
+				<spacing left="20" top="0" right="0" bottom="0" />
+				<text_scale>0.8</text_scale>
+				<angle>0</angle>
+			</btn_text> -->
+			<over_sound>button_authorize</over_sound>
+			<TweenOverTemplate>OverButton</TweenOverTemplate>
+			<anchor x="100" y="60"/>
+
+			<childs>
+				<ctrl>
+					<name>name_welcome</name>
+					<type>Button</type>
+					<enable>0</enable>
+					<visible>1</visible>
+					<subtype>box</subtype>
+					<id>16</id>
+					<pos x="145" y="5"/>
+					<width>350</width>
+					<height>40</height>
+					<btn_text token="welcome">
+						<font type="normal" color="ffffffff">data/fonts/gui/player.fnt</font>
+						<font type="hover" color="ffffffff">data/fonts/gui/player_on.fnt</font>
+						<font type="press" color="ffffffff">data/fonts/gui/player_on.fnt</font>
+						<font type="disabled" color="ffffffff">data/fonts/gui/player.fnt</font>
+						<align>TS_ALIGNHLEFT | TS_ALIGNVCENTER | TS_MULTILINE</align>
+						<spacing left="0" top="0" right="0" bottom="0" />
+						<text_scale>0.9</text_scale>
+						<angle>0</angle>
+					</btn_text>
+				</ctrl>
+				
+				<!-- <ctrl>
+					<name>profile_change</name>
+					<type>Button</type>
+					<enable>0</enable>
+					<visible>1</visible>
+					<subtype>box</subtype>
+					<id>17</id>
+					<pos x="40" y="46"/>
+					<width>100</width>
+					<height>40</height>
+					<btn_text token="auth_change">
+						<font type="normal" color="ffffffff">data/fonts/gui/bodoni65.fnt</font>
+						<font type="hover" color="ffffffff">data/fonts/gui/bodoni65_on.fnt</font>
+						<font type="press" color="ffffffff">data/fonts/gui/bodoni65.fnt</font>
+						<font type="disabled" color="ffffffff">data/fonts/gui/bodoni65.fnt</font>
+						<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+						<spacing left="0" top="0" right="0" bottom="0" />
+						<text_scale>0.7</text_scale>
+						<angle>0</angle>
+					</btn_text>
+				</ctrl> -->
+			</childs>
+		</ctrl>
+
+		<!-- не трогать дальше если не знаешь чо это такое!!! -->
+
+		<ctrl>
+			<name>ButtonSkip</name>
+			<type>Button</type>
+			<enable>0</enable>
+			<visible>0</visible>
+			<subtype>circle</subtype>
+			<id>22</id>
+			<pos x="1027" y="37"/>
+			<width>168</width>
+			<height>50</height>
+			<sprites>
+				<spt>btn_skip</spt>
+				<spt>btn_skip_over</spt>
+				<spt>btn_skip_over</spt>
+			</sprites>
+			<mask_sprite>btn_skip-mask</mask_sprite>
+			<btn_text token="gui_btn_skip">
+				<font type="normal" color="ffffffff">data/fonts/gui/open_sans26.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/open_sans26_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/open_sans26_on.fnt</font>
+				<font type="disabled" color="ff2eeeff">data/fonts/gui/open_sans26.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="0" top="0" right="0" bottom="0" />
+			</btn_text>
+		</ctrl>
+		
+	<!-- loading -->
+		<ctrl>
+			<name>back_loading</name>
+			<type>BackGround</type>
+			<enable>0</enable>
+			<visible>0</visible>
+			<id>23</id>
+			<pos x="0" y="0"/>
+			<width>1366</width>
+			<height>768</height>
+			<sprites>
+				<spt>back_loading</spt>
+			</sprites>
+			<mute_sounds>main_pers_idle;main_bird;main_bird2;main_bird3_idle;logo_click</mute_sounds>
+		</ctrl>
+		
+	<!-- text -->
+		<ctrl>
+			<name>text_loading</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<font>data/fonts/gui/loading.fnt</font>
+			<default_text>loading_title</default_text>
+			<id>24</id>
+			<pos x="552" y="848"/>
+			<width>175</width>
+			<height>45</height>
+		</ctrl>
+
+	<!-- line -->
+		<ctrl>
+			<name>line</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>25</id>
+			<pos x="223" y="904"/>
+			<width>814</width>
+			<height>6</height>
+			<sprites>
+				<spt>spt_canvas_loading_line</spt>
+			</sprites>
+		</ctrl>
+		
+	<!-- cursor -->
+		<ctrl>
+			<name>cursor</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>26</id>
+			<pos x="233" y="904"/>
+			<width>217</width>
+			<height>69</height>
+			<sprites>
+				<spt>spt_loading_cursor</spt>
+			</sprites>
+		</ctrl>
+
+<!-- dialogs -->
+	<!-- settings -->
+		<ctrl>
+			<name>setting_dialog</name>
+			<type>Dialog</type>
+			<class_name>CSettingDialog</class_name>
+			<ext_path>data/gui/dialogs/settings.xml</ext_path>
+			<enable>0</enable>
+			<visible>0</visible>
+			<id>30</id>
+			<pos x="0" y="0"/>
+			<width>542</width>
+			<height>560</height>
+			<effect_active>2</effect_active><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_open_dialog>OpenDialogAS</tween_open_dialog>
+			<effect_deactive>2</effect_deactive><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_close_dialog>CloseDialogAS</tween_close_dialog>
+			<ok_id>1</ok_id>
+			<cancel_id>2</cancel_id>
+			<anchor_coef x="0.5" y="0.5"/>
+		</ctrl>
+		
+	<!-- profile -->
+		<ctrl>
+			<name>profile_dialog</name>
+			<class_name>CProfileDialog</class_name>
+			<type>Dialog</type>
+			<ext_path>data/gui/dialogs/profile.xml</ext_path>
+			<enable>0</enable>
+			<visible>0</visible>
+			<id>31</id>
+			<pos x="0" y="0"/>
+			<width>542</width>
+			<height>560</height>
+			<effect_active>2</effect_active><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_open_dialog>OpenDialogAS</tween_open_dialog>
+			<effect_deactive>2</effect_deactive><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_close_dialog>CloseDialogAS</tween_close_dialog>
+			<ok_id>1</ok_id>
+			<cancel_id>2</cancel_id>
+			<anchor_coef x="0.5" y="0.5"/>
+		</ctrl>
+		<ctrl>
+			<name>new_profile_dialog</name>
+			<class_name>CNewProfileDialog</class_name>
+			<type>Dialog</type>
+			<ext_path>data/gui/dialogs/profile_new.xml</ext_path>
+			<enable>0</enable>
+			<visible>0</visible>
+			<id>32</id>
+			<pos x="0" y="0"/>
+			<width>461</width>
+			<height>284</height>
+			<effect_active>1</effect_active><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_open_dialog>OpenDialogAS</tween_open_dialog>
+			<effect_deactive>1</effect_deactive><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_close_dialog>CloseDialogAS</tween_close_dialog>
+			<ok_id>1</ok_id>
+			<cancel_id>2</cancel_id>
+			<anchor_coef x="0.5" y="0.5"/>
+		</ctrl>
+	   <ctrl>
+			<name>max_profile_dialog</name>
+			<type>Dialog</type>
+			<ext_path>data/gui/dialogs/profile_max.xml</ext_path>
+			<enable>0</enable>
+			<visible>0</visible>
+			<id>33</id>
+			<pos x="0" y="0"/>
+			<width>461</width>
+			<height>284</height>
+			<effect_active>1</effect_active><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_open_dialog>OpenDialogAS</tween_open_dialog>
+			<effect_deactive>1</effect_deactive><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_close_dialog>CloseDialogAS</tween_close_dialog>
+			<ok_id>1</ok_id>
+			<anchor_coef x="0.5" y="0.5"/>
+	   </ctrl>
+		<ctrl>
+			<name>edit_profile_dialog</name>
+			<class_name>CEditProfileDialog</class_name>
+			<type>Dialog</type>
+			<ext_path>data/gui/dialogs/profile_edit.xml</ext_path>
+			<enable>0</enable>
+			<visible>0</visible>
+			<id>34</id>
+			<pos x="0" y="0"/>
+			<width>461</width>
+			<height>284</height>
+			<effect_active>1</effect_active><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_open_dialog>OpenDialogAS</tween_open_dialog>
+			<effect_deactive>1</effect_deactive><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_close_dialog>CloseDialogAS</tween_close_dialog>
+			<ok_id>1</ok_id>
+			<cancel_id>2</cancel_id>
+			<anchor_coef x="0.5" y="0.5"/>
+		</ctrl>
+		<ctrl>
+			<name>delete_profile_confirm_dialog</name>
+			<type>Dialog</type>
+			<ext_path>data/gui/dialogs/profile_delete.xml</ext_path>
+			<enable>0</enable>
+			<visible>0</visible>
+			<id>35</id>
+			<pos x="0" y="0"/>
+			<width>461</width>
+			<height>284</height>
+			<effect_active>1</effect_active><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_open_dialog>OpenDialogAS</tween_open_dialog>
+			<effect_deactive>1</effect_deactive><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_close_dialog>CloseDialogAS</tween_close_dialog>
+			<ok_id>1</ok_id>
+			<cancel_id>2</cancel_id>
+			<anchor_coef x="0.5" y="0.5"/>
+		</ctrl>
+		<ctrl>
+			<name>profile_already_exist_dialog</name>
+			<type>Dialog</type>
+			<ext_path>data/gui/dialogs/profile_exist.xml</ext_path>
+			<enable>0</enable>
+			<visible>0</visible>
+			<id>36</id>
+			<pos x="0" y="0"/>
+			<width>461</width>
+			<height>284</height>
+			<effect_active>1</effect_active><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_open_dialog>OpenDialogAS</tween_open_dialog>
+			<effect_deactive>1</effect_deactive><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_close_dialog>CloseDialogAS</tween_close_dialog>
+			<ok_id>1</ok_id>
+			<cancel_id>-1</cancel_id>
+			<anchor_coef x="0.5" y="0.5"/>
+		</ctrl>
+		<ctrl>
+			<name>corrupted_profile_dialog</name>
+			<type>Dialog</type>
+			<ext_path>data/gui/dialogs/profile_corrupt.xml</ext_path>
+			<enable>0</enable>
+			<visible>0</visible>
+			<id>37</id>
+			<pos x="0" y="0"/>
+			<width>461</width>
+			<height>284</height>
+			<effect_active>1</effect_active><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_open_dialog>OpenDialogAS</tween_open_dialog>
+			<effect_deactive>1</effect_deactive><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_close_dialog>CloseDialogAS</tween_close_dialog>
+			<ok_id>1</ok_id>
+			<anchor_coef x="0.5" y="0.5"/>
+		</ctrl>
+		<ctrl>
+			<name>dlg_reset_profile</name>
+			<type>Dialog</type>
+			<ext_path>data/gui/dialogs/profile_reset.xml</ext_path>
+			<enable>0</enable>
+			<visible>0</visible>
+			<id>38</id>
+			<pos x="0" y="0"/>
+			<width>461</width>
+			<height>284</height>
+			<effect_active>1</effect_active><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_open_dialog>OpenDialogAS</tween_open_dialog>
+			<effect_deactive>1</effect_deactive><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_close_dialog>CloseDialogAS</tween_close_dialog>
+			<ok_id>1</ok_id>
+			<cancel_id>2</cancel_id>
+			<anchor_coef x="0.5" y="0.5"/>
+		</ctrl>
+
+	<!-- play_game -->	
+		<ctrl>
+			<name>play_game_confirm_dialog</name>
+			<class_name>CPlayGameConfirmDialog</class_name>
+			<type>Dialog</type>
+			<ext_path>data/gui/dialogs/play_game.xml</ext_path>
+			<enable>0</enable>
+			<visible>0</visible>
+			<id>39</id>
+			<pos x="0" y="0"/>
+			<width>1366</width>
+			<height>768</height>
+			<dlg_query>dlg_reset_profile</dlg_query><!-- диалог для подтверждения при нажатии на Reset ( сбросится когда нажмут на контрол <ok_id> ) -->
+			<effect_active>2</effect_active><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_open_dialog>OpenDialogAS</tween_open_dialog>
+			<effect_deactive>2</effect_deactive><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_close_dialog>CloseDialogAS</tween_close_dialog>
+			<anchor_coef x="0.5" y="0.5"/>
+		</ctrl>
+		<ctrl>
+			<name>play_game_confirm_dialog_extra</name>
+			<class_name>CPlayGameConfirmDialogExtra</class_name>
+			<type>Dialog</type>
+			<ext_path>data/gui/dialogs/play_game_extra.xml</ext_path>
+			<enable>0</enable>
+			<visible>0</visible>
+			<id>40</id>
+			<pos x="0" y="0"/>
+			<width>1366</width>
+			<height>768</height>
+			<dlg_query>dlg_reset_profile</dlg_query><!-- диалог для подтверждения при нажатии на Reset ( сбросится когда нажмут на контрол <ok_id> ) -->
+			<effect_active>1</effect_active><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_open_dialog>OpenDialogAS</tween_open_dialog>
+			<effect_deactive>1</effect_deactive><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_close_dialog>CloseDialogAS</tween_close_dialog>
+			<anchor_coef x="0.5" y="0.5"/>
+			<close_on_click>true</close_on_click>
+		</ctrl>
+		
+	<!-- play_mode -->	
+		<ctrl>
+			<name>offer_dialog</name>
+			<type>Dialog</type>
+			<class_name>CChangeDifficultyDialog</class_name>
+			<ext_path>data/gui/dialogs/play_mode.xml</ext_path>
+			<enable>0</enable>
+			<visible>0</visible>
+			<id>41</id>
+			<pos x="0" y="0"/>
+			<width>542</width>
+			<height>560</height>
+			<effect_active>2</effect_active><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_open_dialog>OpenDialogAS</tween_open_dialog>
+			<effect_deactive>2</effect_deactive><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_close_dialog>CloseDialogAS</tween_close_dialog>
+			<ok_id>1</ok_id>
+			<cancel_id>2</cancel_id>
+			<anchor_coef x="0.5" y="0.5"/>
+		</ctrl>
+		
+	<!-- custom_difficulty -->	
+		<ctrl>
+			<name>CustomDifficlutyDialog</name>
+			<type>Dialog</type>
+			<class_name>CCustomDifficultyDialog</class_name>
+			<ext_path>data/gui/dialogs/custom_difficulty.xml</ext_path>
+			<enable>0</enable>
+			<visible>0</visible>
+			<id>42</id>
+			<pos x="0" y="0"/>
+			<width>760</width>
+			<height>560</height>
+			<effect_active>1</effect_active><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_open_dialog>OpenDialogAS</tween_open_dialog>
+			<effect_deactive>1</effect_deactive><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_close_dialog>CloseDialogAS</tween_close_dialog>
+			<ok_id>1</ok_id>
+			<cancel_id>2</cancel_id>
+			<anchor_coef x="0.5" y="0.5"/>
+		</ctrl>
+
+	<!-- credits -->	
+		<ctrl>
+			<name>credits_dialog</name>
+			<type>Dialog</type>
+			<class_name>CCredits</class_name>
+			<ext_path>data/gui/dialogs/credits.xml</ext_path>
+			<enable>0</enable>
+			<visible>0</visible>
+			<id>43</id>
+			<pos x="0" y="0"/>
+			<width>1366</width>
+			<height>768</height>
+			<cancel_id>1</cancel_id>
+			<effect_active>1</effect_active><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_open_dialog>OpenDialogA</tween_open_dialog>
+			<pause_sounds>DefaultBackMusic</pause_sounds><!-- список звуков через ";". Будут поставлены на паузу при активации этого диалога, и продолжатся при закрытии диалога -->
+			<play_sounds>village_mus</play_sounds>
+			<mute_sounds>main_pers_idle;main_bird;main_bird2;main_bird3_idle;logo_click</mute_sounds>
+		</ctrl>
+		
+	<!-- pnl_achievements -->
+		<ctrl>
+			<name>achiev_dialog</name>
+			<type>Dialog</type>
+			<class_name>CAchievementDialog</class_name>
+			<ext_path>data/gui/dialogs/pnl_achievements.xml</ext_path>
+			<enable>0</enable>
+			<visible>0</visible>
+			<id>37</id>
+			<pos x="0" y="0"/>
+			<coeff_int_second>6</coeff_int_second>
+			<width>409</width>
+			<height>181</height>
+			<no_dep>1</no_dep>
+			<blackout>0</blackout><!-- затемнене 0-255 -->
+			<sound_open>ad_achievement_got</sound_open>
+			<effect_active>1</effect_active><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_open_dialog>OpenAchievements</tween_open_dialog>
+			<effect_deactive>1</effect_deactive><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_close_dialog>CloseAchievements</tween_close_dialog>
+			<layer>30000</layer>
+		</ctrl>
+		
+	<!-- buy -->
+		<ctrl>
+			<name>buy_game_dialog</name>
+			<type>Dialog</type>
+			<class_name>CUnlockGameDialog</class_name>
+			<ext_path>data/gui/dialogs/buy_game.xml</ext_path>
+			<enable>0</enable>
+			<visible>0</visible>
+			<id>44</id>
+			<pos x="0" y="0"/>
+			<width>1366</width>
+			<height>768</height>
+			<data_file>data/gui/dialogs/buy_game_params.xml</data_file>
+			<back_music>DefaultBackMusic</back_music>
+			<ok_id>9999</ok_id>
+			<mute_sounds>main_pers_idle;main_bird;main_bird2;main_bird3_idle;logo_click</mute_sounds>
+			<close_on_escape>true</close_on_escape>
+		</ctrl>
+		
+	<!-- more_games_dialog -->	
+		<ctrl>
+			<name>more_games_dialog</name>
+			<type>Dialog</type>
+			<class_name>CMoreGamesDialog</class_name>
+			<ext_path>data/gui/dialogs/more_games.xml</ext_path>
+			<enable>0</enable>
+			<visible>0</visible>
+			<id>45</id>
+			<pos x="0" y="0"/>
+			<width>1366</width>
+			<height>768</height>
+			<!-- scroll -->
+			<btn_render_clip_pos>134 x 225</btn_render_clip_pos><!-- координаты области отрисовки для кнопок диалога -->
+			<btn_render_clip_size>1098 x 518</btn_render_clip_size><!-- размер области отрисовки для кнопок диалога -->
+			<scroll_speed_max>500</scroll_speed_max>
+			<scroll_speed_min>50</scroll_speed_min>
+			<scroll_speed_slowdown>1900</scroll_speed_slowdown>
+			<scroll_step>259</scroll_step><!-- шаг скролла -->
+			<min_scroll>-1036</min_scroll><!-- на сколько скроллить в главном меню -->
+			<!-- matrix -->
+			<matrix_mech>true</matrix_mech><!-- включить механику матриц -->
+			<first_pos>134 | 237</first_pos><!-- левая верхняя граница  -->
+			<size_ctrl>366 | 259</size_ctrl><!-- ширина высота -->
+			<column>3</column><!-- количество столбцов -->
+			<pause_sounds></pause_sounds><!-- список звуков через ";". Будут поставлены на паузу при активации этого диалога, и продолжатся при закрытии диалога -->
+			<play_sounds>ad_hall_env</play_sounds><!-- список звуков через ";". Будут запущены при активации этого диалога, и выключатся при закрытии диалога -->
+			<cancel_id>230</cancel_id>
+			<effect_active>1</effect_active><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_open_dialog>OpenDialogA</tween_open_dialog>
+			<effect_deactive>1</effect_deactive><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_close_dialog>CloseDialogA</tween_close_dialog>
+			<close_on_escape>true</close_on_escape>
+			<mute_sounds>main_pers_idle;main_bird;main_bird2;main_bird3_idle;logo_click</mute_sounds>
+		</ctrl>
+		
+	<!-- no_soundcard -->	
+		<ctrl>
+			<name>dlg_no_soundcard</name>
+			<type>Dialog</type>
+			<ext_path>data/gui/dialogs/soundcard.xml</ext_path>
+			<enable>0</enable>
+			<visible>0</visible>
+			<id>46</id>
+			<pos x="0" y="0"/>
+			<width>461</width>
+			<height>284</height>
+			<effect_active>1</effect_active><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_open_dialog>OpenDialogAS</tween_open_dialog>
+			<effect_deactive>1</effect_deactive><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_close_dialog>CloseDialogAS</tween_close_dialog>
+			<ok_id>1</ok_id>
+			<cancel_id>2</cancel_id>
+			<anchor_coef x="0.5" y="0.5"/>
+		</ctrl>
+		
+	<!-- se_not_complete -->	
+		<ctrl>
+			<name>extra_dlg_se_not_complete</name>
+			<unique_name>extra_dlg_se_not_complete</unique_name>
+			<type>Dialog</type>
+			<ext_path>data/gui/dialogs/se_not_complete.xml</ext_path>
+			<enable>0</enable>
+			<visible>0</visible>
+			<id>47</id>
+			<pos x="0" y="0"/>
+			<size x="461" y="284"/>
+			<effect_active>1</effect_active><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_open_dialog>OpenDialogAS</tween_open_dialog>
+			<effect_deactive>1</effect_deactive><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_close_dialog>CloseDialogAS</tween_close_dialog>
+			<ok_id>1</ok_id>
+			<anchor_coef x="0.5" y="0.5"/>
+		</ctrl>
+		
+	<!-- disable_in_demo -->	
+		<ctrl>
+			<name>extra_dlg_disable_in_demo</name>
+			<unique_name>ExtraContentDisabledInDemoDialog</unique_name>
+			<type>Dialog</type>
+			<ext_path>data/gui/dialogs/disable_in_demo.xml</ext_path>
+			<enable>0</enable>
+			<visible>0</visible>
+			<id>48</id>
+			<pos x="0" y="0"/>
+			<size x="461" y="284"/>
+			<effect_active>1</effect_active><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_open_dialog>OpenDialogAS</tween_open_dialog>
+			<effect_deactive>1</effect_deactive><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_close_dialog>CloseDialogAS</tween_close_dialog>
+			<ok_id>1</ok_id>
+			<anchor_coef x="0.5" y="0.5"/>
+		</ctrl>
+		
+	<!-- extra_content_closed -->	
+		<ctrl>
+            <name>ExtraContentClosed</name>
+			<unique_name>ExtraContentClosed</unique_name>
+            <type>Dialog</type>
+            <ext_path>data/gui/dialogs/extra_content_closed.xml</ext_path>
+            <enable>0</enable>
+            <visible>0</visible>
+            <id>49</id>
+            <pos x="0" y="0"/>
+            <width>461</width>
+            <height>284</height>
+            <effect_active>1</effect_active><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_open_dialog>OpenDialogAS</tween_open_dialog>
+			<effect_deactive>1</effect_deactive><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_close_dialog>CloseDialogAS</tween_close_dialog>
+			<ok_id>1</ok_id>
+			<anchor_coef x="0.5" y="0.5"/>
+        </ctrl>
+
+	<!-- ce_restart -->	
+		<ctrl>
+			<name>extra_dlg_ce_restart</name>
+			<unique_name>restart_game_confirm_dialog_extra</unique_name>
+			<type>Dialog</type>
+			<ext_path>data/gui/dialogs/ce_restart.xml</ext_path>
+			<enable>0</enable>
+			<visible>0</visible>
+			<id>50</id>
+			<pos x="0" y="0"/>
+			<size x="461" y="284"/>
+			<effect_active>1</effect_active><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_open_dialog>OpenDialogAS</tween_open_dialog>
+			<effect_deactive>1</effect_deactive><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_close_dialog>CloseDialogAS</tween_close_dialog>
+			<ok_id>1</ok_id>
+			<cancel_id>2</cancel_id>
+			<anchor_coef x="0.5" y="0.5"/>
+		</ctrl>
+		
+	<!-- se_complete -->	
+		<ctrl>
+			<name>ExtraContentOpenedDialog</name>
+			<unique_name>ExtraContentOpenedDialogUni</unique_name>
+			<type>Dialog</type>
+			<class_name>CExtraContentOpenedDialog</class_name>
+			<ext_path>data/gui/dialogs/se_complete.xml</ext_path>
+			<enable>0</enable>
+			<visible>0</visible>
+			<id>51</id>
+			<pos x="0" y="0"/>
+			<width>461</width>
+			<height>284</height>
+			<!-- <effect_active>1</effect_active>
+			<tween_open_dialog>OpenDialogAS</tween_open_dialog>
+			<effect_deactive>1</effect_deactive>
+			<tween_close_dialog>CloseDialogAS</tween_close_dialog> -->
+			<ok_id>9999</ok_id>
+			<anchor_coef x="0.5" y="0.5"/>
+			<mute_sounds>main_pers_idle;main_bird;main_bird2;main_bird3_idle;logo_click</mute_sounds>
+		</ctrl>
+
+	<!-- ce_complete -->	
+		<ctrl>
+			<name>ExtraGameplayFinishedDialog</name>
+			<type>Dialog</type>
+			<ext_path>data/gui/dialogs/ce_complete.xml</ext_path>
+			<enable>0</enable>
+			<visible>0</visible>
+			<id>52</id>
+			<pos x="0" y="0"/>
+			<width>461</width>
+			<height>284</height>
+			<effect_active>1</effect_active><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_open_dialog>OpenDialogAS</tween_open_dialog>
+			<effect_deactive>1</effect_deactive><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_close_dialog>CloseDialogAS</tween_close_dialog>
+			<ok_id>1</ok_id>
+			<anchor_coef x="0.5" y="0.5"/>
+		</ctrl>
+		
+	<!-- exit_dialog -->	
+		<ctrl>
+			<name>exit_dialog</name>
+			<type>Dialog</type>
+			<ext_path>data/gui/dialogs/exit.xml</ext_path>
+			<enable>0</enable>
+			<visible>0</visible>
+			<id>53</id>
+			<pos x="0" y="0"/>
+			<width>461</width>
+			<height>284</height>
+			<effect_active>2</effect_active><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_open_dialog>OpenDialogAS</tween_open_dialog>
+			<effect_deactive>2</effect_deactive><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_close_dialog>CloseDialogAS</tween_close_dialog>
+			<ok_id>1</ok_id>
+			<cancel_id>2</cancel_id>
+			<anchor_coef x="0.5" y="0.5"/>
+		</ctrl>
+		
+	<!-- extra -->
+		<ctrl>
+			<name>extra_dialog</name>
+			<type>Dialog</type>
+			<class_name>CExtraDialog</class_name>
+			<ext_path>data/gui/extra/main.xml</ext_path>
+			<enable>0</enable>
+			<visible>0</visible>
+			<id>70</id>
+			<pos x="0" y="0"/>
+			<width>1280</width>
+			<height>800</height>
+			<pause_sounds>ad_forest_env;ad_thunders3</pause_sounds><!-- список звуков через ";". Будут поставлены на паузу при активации этого диалога, и продолжатся при закрытии диалога -->
+			<play_sounds>ad_wind_birds_env</play_sounds><!-- список звуков через ";". Будут запущены при активации этого диалога, и выключатся при закрытии диалога -->
+			<effect_active>1</effect_active><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_open_dialog>OpenDialogA</tween_open_dialog>
+			<effect_deactive>1</effect_deactive><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_close_dialog>CloseDialogA</tween_close_dialog>
+			<ok_id>1</ok_id>
+			<blackout>0</blackout>
+			<close_on_escape>true</close_on_escape>
+			<mute_sounds>main_pers_idle;main_bird;main_bird2;main_bird3_idle;logo_click</mute_sounds>
+		</ctrl>
+
+	<!-- achievements -->
+		<ctrl>
+			<name>achievements_dialog</name>
+			<type>Dialog</type>
+			<class_name>CAchievementsDialog</class_name>
+			<achievements_list_pos_x>7</achievements_list_pos_x>
+			<achievements_list_pos_y>35</achievements_list_pos_y>
+			<achievements_list_size_x>548</achievements_list_size_x>
+			<achievements_list_size_y>550</achievements_list_size_y>
+			<ext_path>data/gui/extra/achievements.xml</ext_path>
+			<enable>0</enable>
+			<visible>0</visible>
+			<id>71</id>
+			<pos x="0" y="0"/>
+			<width>1366</width>
+			<height>768</height>
+			<cancel_id>2</cancel_id>
+			<play_sounds>ad_wind_birds_env</play_sounds><!-- список звуков через ";". Будут запущены при активации этого диалога, и выключатся при закрытии диалога -->
+			<effect_active>2</effect_active><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_open_dialog>OpenDialogAS</tween_open_dialog>
+			<effect_deactive>1</effect_deactive><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_close_dialog>CloseDialogAchievements</tween_close_dialog>
+			<ok_id>1</ok_id>
+			<anchor_coef x="0.5" y="0.5"/>
+			<close_on_escape>true</close_on_escape> 
+		</ctrl>
+		
+	<!-- boudoir -->
+		<ctrl>
+			<name>extra_boudoir</name>
+			<type>Dialog</type>
+			<class_name>CPetsDialog</class_name>
+			<ext_path>data/gui/extra/boudoir.xml</ext_path>
+			<data_file>data/gui/extra/boudoir_objects.xml</data_file><!-- путь к данным диалога -->
+			<enable>0</enable>
+			<visible>0</visible>
+			<id>72</id>
+			<pos x="0" y="0"/>
+			<width>1280</width>
+			<height>800</height>
+			<dlg_buy_pet>extra_boudoir_buy</dlg_buy_pet>
+			<dlg_no_resource>extra_boudoir_no_resource</dlg_no_resource><!-- имя диалога, если не хватает ресурсов на покупку -->
+			<dlg_no_active_pet>ExtraContentDisabledInDemoDialog</dlg_no_active_pet><!-- имя диалога, если нет активных животных -->
+			<pause_sounds>ad_wind_birds_env</pause_sounds>
+			<play_sounds>ad_emtyroom_env</play_sounds><!-- список звуков через ";". Будут запущены при активации этого диалога, и выключатся при закрытии диалога -->
+			<pets_layer_ctrl_name>render_objects</pets_layer_ctrl_name>
+			<effect_active>1</effect_active><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_open_dialog>OpenDialogA</tween_open_dialog>
+			<effect_deactive>1</effect_deactive><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_close_dialog>CloseDialogA</tween_close_dialog>
+			<ok_id>1</ok_id>
+			<close_on_escape>true</close_on_escape>
+		</ctrl>
+		<ctrl>
+			<name>extra_boudoir_buy</name>
+			<type>Dialog</type>
+			<class_name>CBuyPetsDialog</class_name>
+			<ext_path>data/gui/extra/boudoir_buy.xml</ext_path>
+			<enable>0</enable>
+			<visible>0</visible>
+			<id>73</id>
+			<size x="542" y="560"/>
+			<effect_active>2</effect_active><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_open_dialog>OpenDialogAS</tween_open_dialog>
+			<effect_deactive>2</effect_deactive><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_close_dialog>CloseDialogAS</tween_close_dialog>
+			<cancel_id>1</cancel_id>
+			<anchor_coef x="0.5" y="0.5"/>
+			<close_on_escape>true</close_on_escape>
+		</ctrl>
+		<ctrl>
+			<name>extra_boudoir_no_resource</name>
+			<type>Dialog</type>
+			<class_name>CXDialog</class_name>
+			<ext_path>data/gui/extra/boudoir_no_resource.xml</ext_path>
+			<enable>0</enable>
+			<visible>0</visible>
+			<id>74</id>
+			<pos x="0" y="0"/>
+			<width>461</width>
+			<height>284</height>
+			<effect_active>1</effect_active><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_open_dialog>OpenDialogAS</tween_open_dialog>
+			<effect_deactive>1</effect_deactive><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_close_dialog>CloseDialogAS</tween_close_dialog>
+			<ok_id>1</ok_id>
+			<cancel_id>1</cancel_id>
+			<anchor_coef x="0.5" y="0.5"/>
+			<close_on_escape>true</close_on_escape>
+		</ctrl>
+		
+	<!-- concept_art -->
+		<ctrl>
+			<name>extra_concept_art_dialog</name>
+			<type>Dialog</type>
+			<ext_path>data/gui/extra/concept_art.xml</ext_path>
+			<enable>0</enable>
+			<visible>0</visible>
+			<id>75</id>
+			<pos x="0" y="0"/>
+			<width>1280</width>
+			<height>800</height>
+			<effect_active>2</effect_active><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_open_dialog>OpenDialogAS</tween_open_dialog>
+			<effect_deactive>2</effect_deactive><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_close_dialog>CloseDialogAS</tween_close_dialog>
+			<ok_id>4</ok_id>
+			<anchor_coef x="0.5" y="0.5"/>
+			<close_on_escape>true</close_on_escape>
+		</ctrl>
+		<ctrl>
+			<name>save_concept_confirm_dialog</name>
+			<type>Dialog</type>
+			<ext_path>data/gui/extra/concept_art_save.xml</ext_path>
+			<enable>0</enable>
+			<visible>0</visible>
+			<id>76</id>
+			<pos x="0" y="0"/>
+			<width>461</width>
+			<height>284</height>
+			<effect_active>1</effect_active><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_open_dialog>OpenDialogAS</tween_open_dialog>
+			<effect_deactive>1</effect_deactive><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_close_dialog>CloseDialogAS</tween_close_dialog>
+			<ok_id>1</ok_id>
+			<cancel_id>2</cancel_id>
+			<anchor_coef x="0.5" y="0.5"/>
+			<close_on_escape>true</close_on_escape>
+		</ctrl>
+
+	<!-- extra wallpapers -->
+		<ctrl>
+			<name>extra_wallpapers_dialog</name>
+			<type>Dialog</type>
+			<ext_path>data/gui/extra/wallpapers.xml</ext_path>
+			<enable>0</enable>
+			<visible>0</visible>
+			<id>77</id>
+			<pos x="0" y="0"/>
+			<width>1280</width>
+			<height>800</height>
+			<effect_active>2</effect_active><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_open_dialog>OpenDialogAS</tween_open_dialog>
+			<effect_deactive>2</effect_deactive><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_close_dialog>CloseDialogAS</tween_close_dialog>
+			<ok_id>4</ok_id>
+			<anchor_coef x="0.5" y="0.5"/>
+			<close_on_escape>true</close_on_escape>
+		</ctrl>
+		<ctrl>
+			<name>set_wallpaper_confirm_dialog</name>
+			<type>Dialog</type>
+			<ext_path>data/gui/extra/wallpaper_save.xml</ext_path>
+			<enable>0</enable>
+			<visible>0</visible>
+			<id>78</id>
+			<pos x="0" y="0" />
+			<width>461</width>
+			<height>284</height>
+			<effect_active>1</effect_active><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_open_dialog>OpenDialogAS</tween_open_dialog>
+			<effect_deactive>1</effect_deactive><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_close_dialog>CloseDialogAS</tween_close_dialog>
+			<ok_id>1</ok_id>
+			<cancel_id>2</cancel_id>
+			<anchor_coef x="0.5" y="0.5"/>
+			<close_on_escape>true</close_on_escape>
+		</ctrl>
+		
+	<!-- extra music -->
+		<ctrl>
+			<name>extra_music_dialog</name>
+			<type>Dialog</type>
+			<ext_path>data/gui/extra/music.xml</ext_path>
+			<enable>0</enable>
+			<visible>0</visible>
+			<id>79</id>
+			<pos x="0" y="0"/>
+			<width>1280</width>
+			<height>800</height>
+			<effect_active>2</effect_active><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_open_dialog>OpenDialogAS</tween_open_dialog>
+			<effect_deactive>2</effect_deactive><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_close_dialog>CloseDialogAS</tween_close_dialog>
+			<ok_id>4</ok_id>
+			<anchor_coef x="0.5" y="0.5"/>
+			<close_on_escape>true</close_on_escape>
+		</ctrl>
+		<ctrl>
+			<name>save_music_confirm_dialog</name>
+			<type>Dialog</type>
+			<ext_path>data/gui/extra/music_save.xml</ext_path>
+			<enable>0</enable>
+			<visible>0</visible>
+			<id>80</id>
+			<pos x="0" y="0"/>
+			<width>461</width>
+			<height>284</height>
+			<effect_active>1</effect_active><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_open_dialog>OpenDialogAS</tween_open_dialog>
+			<effect_deactive>1</effect_deactive><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_close_dialog>CloseDialogAS</tween_close_dialog>
+			<ok_id>1</ok_id>
+			<cancel_id>2</cancel_id>
+			<anchor_coef x="0.5" y="0.5"/>
+			<close_on_escape>true</close_on_escape>
+		</ctrl>
+		
+	<!-- movie -->
+		<ctrl>
+			<name>movie_dialog</name>
+			<type>Dialog</type>
+			<ext_path>data/gui/extra/movie.xml</ext_path>
+			<enable>0</enable>
+			<visible>0</visible>
+			<id>81</id>
+			<pos x="0" y="0"/>
+			<width>1280</width>
+			<height>800</height>
+			<effect_active>2</effect_active><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_open_dialog>OpenDialogAS</tween_open_dialog>
+			<effect_deactive>2</effect_deactive><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_close_dialog>CloseDialogAS</tween_close_dialog>
+			<ok_id>4</ok_id>
+			<anchor_coef x="0.5" y="0.5"/>
+			<close_on_escape>true</close_on_escape>
+		</ctrl>
+
+	<!-- hidden_objects -->
+		<ctrl>
+			<name>hidden_objects_dialog</name>
+			<type>Dialog</type>
+			<ext_path>data/gui/extra/hidden_objects.xml</ext_path>
+			<enable>0</enable>
+			<visible>0</visible>
+			<id>82</id>
+			<pos x="0" y="0"/>
+			<width>1280</width>
+			<height>800</height>
+			<effect_active>2</effect_active><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_open_dialog>OpenDialogAS</tween_open_dialog>
+			<effect_deactive>2</effect_deactive><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_close_dialog>CloseDialogAS</tween_close_dialog>
+			<ok_id>4</ok_id>
+			<anchor_coef x="0.5" y="0.5"/>
+			<close_on_escape>true</close_on_escape>
+		</ctrl>
+
+	<!-- minigames -->
+		<ctrl>
+			<name>minigames_dialog</name>
+			<type>Dialog</type>
+			<ext_path>data/gui/extra/minigames.xml</ext_path>
+			<enable>0</enable>
+			<visible>0</visible>
+			<id>83</id>
+			<pos x="0" y="0"/>
+			<width>1280</width>
+			<height>800</height>
+			<effect_active>2</effect_active><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_open_dialog>OpenDialogAS</tween_open_dialog>
+			<effect_deactive>2</effect_deactive><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_close_dialog>CloseDialogAS</tween_close_dialog>
+			<ok_id>4</ok_id>
+			<anchor_coef x="0.5" y="0.5"/>
+			<close_on_escape>true</close_on_escape>
+		</ctrl>
+
+	<!-- magic -->
+		<ctrl>
+			<name>magic_dialog</name>
+			<type>Dialog</type>
+			<class_name>CCollectionInfoDialog</class_name>
+			<ext_path>data/gui/extra/magic.xml</ext_path>
+			<data_file>data/gui/extra/magic_params.xml</data_file><!-- путь к данным диалога -->
+			<enable>0</enable>
+			<visible>0</visible>
+			<id>84</id>
+			<pos x="0" y="0"/>
+			<width>1280</width>
+			<height>800</height>
+			<effect_active>1</effect_active><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_open_dialog>OpenDialogA</tween_open_dialog>
+			<effect_deactive>1</effect_deactive><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_close_dialog>CloseDialogA</tween_close_dialog>
+			<ok_id>1</ok_id>
+			<close_on_escape>true</close_on_escape>
+		</ctrl>
+
+	<!-- statuettes -->
+		<ctrl>
+			<name>statuettes_dialog</name>
+			<type>Dialog</type>
+			<class_name>CCollectionInfoDialog</class_name>
+			<ext_path>data/gui/extra/statuettes.xml</ext_path>
+			<data_file>data/gui/extra/statuettes_params.xml</data_file>
+			<!-- путь к данным диалога -->
+			<enable>0</enable>
+			<visible>0</visible>
+			<id>85</id>
+			<pos x="0" y="0"/>
+			<width>1366</width>
+			<height>768</height>
+			<effect_active>1</effect_active><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_open_dialog>OpenDialogA</tween_open_dialog>
+			<effect_deactive>1</effect_deactive><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_close_dialog>CloseDialogA</tween_close_dialog>
+			<ok_id>1</ok_id>
+			<close_on_escape>true</close_on_escape>
+		</ctrl>
+
+	<!-- collectibles info panel -->
+		<ctrl>
+			<name>collectibles_info_panel</name>
+			<type>Dialog</type>
+			<ext_path>data/gui/extra/collectibles_panel.xml</ext_path>
+			<enable>1</enable>
+			<visible>0</visible>
+			<id>87</id>
+			<width>1366</width>
+			<height>768</height>
+			<pause_sounds></pause_sounds><!-- список звуков через ";". Будут поставлены на паузу при активации этого диалога, и продолжатся при закрытии диалога -->
+			<play_sounds></play_sounds><!-- список звуков через ";". Будут запущены при активации этого диалога, и выключатся при закрытии диалога -->
+			<sound_open></sound_open>
+			<effect_active>2</effect_active><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_open_dialog>OpenDialogAS</tween_open_dialog>
+			<effect_deactive>2</effect_deactive><!-- 0 - без зума, 1 - из центра, 2 - из точки клика -->
+			<tween_close_dialog>CloseDialogAS</tween_close_dialog>
+			<ok_id>1</ok_id>
+			<anchor_coef x="0.5" y="0.5"/>
+		</ctrl>
+
+	<!-- debug -->
+		<ctrl>
+			<name>text_debug_gui_int</name>
+			<type>Text</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<align>2</align>
+			<default_text></default_text>
+			<font>data/fonts/gui/system.fnt</font>
+			<align>TS_ALIGNLEFT</align>
+			<id>100</id>
+			<pos x="5" y="0"/>
+			<width>200</width>
+			<height>58</height>
+		</ctrl>
+		
+		<ctrl><!-- frame list -->
+			<name>text_debug_gui_int_frame</name>
+			<type>Text</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<align>2</align>
+			<default_text></default_text>
+			<font>data/fonts/gui/system.fnt</font>
+			<align>TS_ALIGNLEFT</align>
+			<id>101</id>
+			<pos x="1030" y="28"/>
+			<width>200</width>
+			<height>58</height>
+		</ctrl>
+
+	</ctrls>
+</gui>

@@ -1,0 +1,289 @@
+<?xml version="1.0"?>
+<gui name="main">
+	<Resources>data/main.res</Resources>
+	<pos x="0" y="0"/>
+	<ctrls>
+	<!-- info -->
+		<ctrl> 
+			<name>info_back</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>2</id>
+			<pos x="30" y="19"/>
+			<width>340</width>
+			<height>329</height>
+			<sprites>
+				<spt>info_panel</spt>
+			</sprites>
+			
+			<childs>
+				<ctrl>
+					<name>you_are_here</name>
+					<type>TextBox</type>
+					<enable>1</enable>
+					<visible>1</visible>
+					<font>data/fonts/gui/open_sans22.fnt</font>
+					<style>TS_ALIGNHLEFT | TS_ALIGNVCENTER</style>
+					<default_text>you_are_here</default_text>
+					<id>3</id>
+					<pos x="96" y="47" />
+					<width>187</width>
+					<height>21</height>
+				</ctrl>
+				
+				<ctrl>
+					<name>unlocked_locations</name>
+					<type>TextBox</type>
+					<enable>1</enable>
+					<visible>1</visible>
+					<font>data/fonts/gui/open_sans22.fnt</font>
+					<style>TS_ALIGNLEFT | TS_ALIGNVCENTER</style>
+					<default_text>unlocked_locations</default_text>
+					<id>4</id>
+					<pos x="96" y="98" />
+					<width>187</width>
+					<height>21</height>
+				</ctrl>
+				
+			<!-- action -->	
+				<ctrl>
+					<name>CB_HideHint</name>
+					<type>CheckBox</type>
+					<enable>1</enable>
+					<visible>1</visible>
+					<id>5</id>
+					<pos x="49" y="180"/>
+					<width>31</width>
+					<height>30</height>
+					<sprites>
+						<spt>btn_check</spt>
+						<spt>btn_check_over</spt>
+						<spt>btn_check_arrow</spt>
+						<spt>btn_check_arrow_over</spt>
+						<spt>btn_check_disable</spt>
+					</sprites>
+					<mask_sprite>btn_check-mask</mask_sprite>
+					<tutorial_ignore>1</tutorial_ignore>
+					<state>2</state>
+					<press_sound>button_click</press_sound>
+				</ctrl>
+				<ctrl>
+					<name>available_actions</name>
+					<type>TextBox</type>
+					<enable>1</enable>
+					<visible>1</visible>
+					<font>data/fonts/gui/open_sans22.fnt</font>
+					<style>TS_ALIGNLEFT | TS_ALIGNVCENTER</style>
+					<default_text>available_actions</default_text>
+					<id>6</id>
+					<pos x="96" y="166" />
+					<width>200</width>
+					<height>21</height>
+				</ctrl>
+				<ctrl>
+					<name>actions_show</name>
+					<type>TextBox</type>
+					<enable>1</enable>
+					<visible>1</visible>
+					<font>data/fonts/gui/open_sans22.fnt</font>
+					<style>TS_ALIGNLEFT | TS_ALIGNVCENTER</style>
+					<default_text>show</default_text>
+					<id>7</id>
+					<pos x="96" y="197" />
+					<width>187</width>
+					<height>21</height>
+				</ctrl>
+				
+			<!-- extra -->	
+				<ctrl>
+					<name>CB_HideExtra</name>
+					<type>CheckBox</type>
+					<enable>1</enable>
+					<visible>1</visible>
+					<id>8</id>
+					<pos x="104" y="251"/>
+					<width>31</width>
+					<height>30</height>
+					<sprites>
+						<spt>btn_check</spt>
+						<spt>btn_check_over</spt>
+						<spt>btn_check_arrow</spt>
+						<spt>btn_check_arrow_over</spt>
+						<spt>btn_check_disable</spt>
+					</sprites>
+					<mask_sprite>btn_check-mask</mask_sprite>
+					<tutorial_ignore>1</tutorial_ignore>
+					<state>2</state>
+					<press_sound>button_click</press_sound>
+				</ctrl>
+				<ctrl>
+					<name>collectibles</name>
+					<type>TextBox</type>
+					<enable>1</enable>
+					<visible>1</visible>
+					<font>data/fonts/gui/open_sans22.fnt</font>
+					<style>TS_ALIGNLEFT | TS_ALIGNVCENTER</style>
+					<default_text>Collectibles</default_text>
+					<id>9</id>
+					<pos x="147" y="233" />
+					<width>125</width>
+					<height>21</height>
+				</ctrl>
+				<ctrl>
+					<name>collectibles_show</name>
+					<type>TextBox</type>
+					<enable>1</enable>
+					<visible>1</visible>
+					<font>data/fonts/gui/open_sans22.fnt</font>
+					<style>TS_ALIGNLEFT | TS_ALIGNVCENTER</style>
+					<default_text>Показать</default_text>
+					<id>10</id>
+					<pos x="147" y="261" />
+					<width>133</width>
+					<height>22</height>
+				</ctrl>
+			</childs>
+		</ctrl>
+
+	<!-- картиночки в плашке -->
+		<ctrl>
+			<name>extra_available</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>4325345</id>
+			<pos x="37" y="233"/>
+			<width>94</width>
+			<height>93</height>
+			<sprites>
+				<spt>extra_available</spt>
+			</sprites>
+			<manual_render>1</manual_render>
+		</ctrl>
+		<ctrl>
+			<name>map_action</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>234356</id>
+			<pos x="49" y="188"/>
+			<width>20</width>
+			<height>52</height>
+			<sprites>
+				<spt>map_action</spt>
+			</sprites>
+			<manual_render>1</manual_render>
+		</ctrl>
+		<ctrl>
+			<name>room</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>56456</id>
+			<pos x="51" y="118"/>
+			<width>64</width>
+			<height>63</height>
+			<sprites>
+				<spt>room</spt>
+			</sprites>
+			<manual_render>1</manual_render>
+		</ctrl>
+		<ctrl>
+			<name>room_inside</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>564562</id>
+			<pos x="51" y="51"/>
+			<width>64</width>
+			<height>63</height>
+			<sprites>
+				<spt>room_inside</spt>
+			</sprites>
+			<manual_render>1</manual_render>
+		</ctrl>
+
+	<!-- кнопка ачивок -->
+		<ctrl>
+			<name>button_achievements</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>11</id>
+			<pos x="59" y="668"/>
+			<width>300</width>
+			<height>100</height>
+			<sprites>
+				<spt>btn_achiev</spt>
+				<spt>btn_achiev_over</spt>
+				<spt>btn_achiev_over</spt>
+			</sprites>
+            <mask_sprite>btn_achiev-mask</mask_sprite>
+			<btn_text token="Achievements">
+				<font type="normal" color="ffffffff">data/fonts/gui/open_sans22.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/open_sans22_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/open_sans22_on.fnt</font>
+				<font type="disabled" color="ff2eeeff">data/fonts/gui/open_sans22.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="0" top="0" right="0" bottom="0" />
+			</btn_text>
+			<open_dialog_by_click>achievements_dialog</open_dialog_by_click>
+		</ctrl>
+
+	<!-- партикл -->
+		<!-- <ctrl>
+			<name>map_particle</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>4634256</id>
+			<pos x="0" y="0"/>
+			<particles>
+				<instance>
+					<name>map_particle</name>
+					<position x="683" y="384"/>
+					<loop>1</loop>
+					<period_time_min_limit>0</period_time_min_limit>
+					<period_time_max_limit>0</period_time_max_limit>
+				</instance>
+			</particles>
+		</ctrl> -->
+		
+	<!-- локация -->
+		<ctrl>
+			<name>TB_Location</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data/fonts/gui/open_sans22.fnt</font>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER</style>
+			<id>12</id>
+			<pos x="62" y="222"/><!-- координаты относительно верхнего левого угла всплывающего окна -->
+			<width>289</width>
+			<height>60</height>
+			<manual_render>1</manual_render>
+		</ctrl>
+
+	<!-- btn close -->	
+		<ctrl>
+			<name>button_ok</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>1</id>
+			<pos x="1090" y="95"/>
+			<width>69</width>
+			<height>70</height>
+			<sprites>
+				<spt>btn_close_big</spt>
+				<spt>btn_close_big_over</spt>
+				<spt>btn_close_big_over</spt>
+			</sprites>
+			<mask_sprite>btn_close_big-mask</mask_sprite>
+		</ctrl>
+		
+    </ctrls>
+</gui>

@@ -1,0 +1,162 @@
+<?xml version="1.0" ?> 
+<Credits>
+
+	<!-- так можно сделать что бы рисовать в 2 столбца -->
+	
+	<!-- <text_title>General</text_title> 
+	<text_desc>Ilya Busalaev</text_desc> 
+	<bool_value2>1</bool_value2> Если 1, то значение на той же строчке, что и заголовок
+	<vec_value> дельта значения
+		<x>300</x>
+		<y>0</y>
+	</vec_value> -->
+	
+	<!-- через сколько будет рисоваться след блок -->
+	<!-- <float_value4>50</float_value4> --> <!-- Y DELTA -->
+	
+	<!-- <ctrl_title>big</ctrl_title> -->	<!-- контрол для text_title -->
+	<!-- <ctrl_desc>big</ctrl_desc> -->	<!-- контрол для ctrl_title -->
+
+	<!-- координаты от куда рисуется -->
+	<rect>
+		<left>240</left><!-- левая точка -->
+		<right>800</right><!-- сколько пикселей от левой точки -->
+		<top>40</top><!-- верхняя точка -->
+		<bottom>760</bottom><!-- сколько пикселей от верхней точки -->
+	</rect>
+	
+	<!-- параметры клиппинга -->
+	<rect_clip>
+		<left>140</left><!-- левая точка -->
+		<right>1140</right><!-- правая точка -->
+		<top>0</top><!-- верхняя точка -->
+		<bottom>800</bottom><!-- нижняя точка -->
+	</rect_clip>
+	
+	<params>
+		<int_value>60</int_value> <!-- speed -->
+		<float_value>30</float_value> <!-- Delta Per Token & Text -->
+		<float_value2>60</float_value2> <!-- Delta Per Blocks -->
+		<float_value3>500</float_value3> <!-- alpha speed -->
+	</params>
+	
+	<pair_string_array size="1">
+		
+	<!-- DOMINI GAMES -->
+		<value>
+			<text_title>title1</text_title> 
+			<ctrl_title>ctrl_title_big</ctrl_title>
+			<float_value4>10</float_value4>
+		</value>		
+		
+	<!-- Leads -->
+		<value>
+			<text_title>token1_1</text_title> 
+			<text_desc>token1_2</text_desc> 
+			<float_value4>10</float_value4>
+		</value>	
+		<value>
+			<text_title>token1_3</text_title> 
+			<text_desc>token1_4</text_desc>
+			<float_value4>8</float_value4> 
+		</value>
+		<value>
+			<text_title>token1_5</text_title> 
+			<text_desc>token1_6</text_desc> 
+		</value>
+		<value>
+			<text_title>token1_7</text_title> 
+			<text_desc>token1_8</text_desc> 
+		</value>
+		<value>
+			<text_title>token1_9</text_title> 
+			<text_desc>token1_10</text_desc> 
+		</value>
+		<value>
+			<text_title>token1_11</text_title> 
+			<text_desc>token1_12</text_desc> 
+		</value>
+		<value>
+			<text_title>token1_13</text_title> 
+			<text_desc>token1_14</text_desc> 
+		</value>
+		<value>
+			<text_title>token1_15</text_title> 
+			<text_desc>token1_16</text_desc> 
+		</value>
+
+	<!-- level designers -->	
+		<value>
+			<text_title>title2</text_title> 
+			<text_desc>token2_1</text_desc> 
+		</value>
+		
+	<!-- programmers -->	
+		<value>
+			<text_title>title2_2</text_title> 
+			<text_desc>token2_3</text_desc> 
+		</value>
+		
+	<!-- art -->
+		<value>
+			<text_title>title2_4</text_title> 
+			<text_desc>token2_5</text_desc> 
+		</value>
+	
+	<!-- art cs -->
+		<value>
+			<text_title>title2_6</text_title> 
+			<text_desc>token2_7</text_desc> 
+		</value>
+
+	<!-- cs -->
+		<value>
+			<text_title>title2_8</text_title> 
+			<text_desc>token2_9</text_desc> 
+		</value>
+		
+	<!-- anim -->
+		<value>
+			<text_title>title2_10</text_title> 
+			<text_desc>token2_11</text_desc> 
+		</value>
+
+	<!-- fx -->
+		<value>
+			<text_title>title2_12</text_title> 
+			<text_desc>token2_13</text_desc> 
+		</value>
+		
+	<!-- game designers -->
+		<value>
+			<text_title>title2_14</text_title> 
+			<text_desc>token2_15</text_desc> 
+		</value>
+		
+	<!-- music -->	
+		<value>
+			<text_title>title2_16</text_title> 
+			<text_desc>token2_17</text_desc> 
+		</value>
+		
+	<!-- writing -->	
+		<value>
+			<text_title>title2_18</text_title> 
+			<text_desc>token2_19</text_desc> 
+		</value>
+		
+	<!-- voices -->	
+		<value>
+			<text_title>title2_20</text_title> 
+			<text_desc>token2_21</text_desc> 
+		</value>
+
+	<!-- права -->		
+		<value>
+			<text_title>title3</text_title> 
+			<text_desc>token13_1</text_desc> 
+			<float_value4>50</float_value4>
+		</value>
+
+	</pair_string_array>
+</Credits>

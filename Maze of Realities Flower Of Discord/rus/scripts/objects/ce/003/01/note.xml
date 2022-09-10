@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<object>
+	<name>003_01_note</name>
+	<name_desc>003_01_note</name_desc>
+	<type>003_01_note</type>
+	<states size="1">
+		<state>
+			<sprite>003_01_note</sprite>
+			<mask_sprite>003_01_note-mask</mask_sprite>
+			<cursor>spt_cursor_hand</cursor>
+			<mode>Click</mode>
+			<hint_delta x="0" y="0"/>
+			<fast_iterate>1</fast_iterate>
+			<iterate_effect>note_open</iterate_effect>
+			<static_text_list>
+				<static_text>
+					<text>ce_003_01_note</text>
+					<font>data/fonts/notes/Cambria_60.ttfd</font>
+					<pos x="1925" y="295" />
+					<size x="900" y="350" />
+					<align>TS_ALIGNHLEFT | TS_ALIGNHLEFT | TS_MULTILINE</align>
+					<color>ff000000</color>
+					<angle>40</angle>
+					<skew x="-0.498" y="-0.315"/>
+					<scale>0.122</scale>
+				</static_text> 
+				<static_text>
+					<text>ce_003_01_note_2</text>
+					<font>data/fonts/notes/Cambria_60.ttfd</font>
+					<pos x="1992" y="598" />
+					<size x="600" y="250" />
+					<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+					<color>ff000000</color>
+					<angle>40</angle>
+					<skew x="-0.498" y="-0.315"/>
+					<scale>0.122</scale>
+				</static_text> 
+			</static_text_list>
+			<sound_fx>paper1_01</sound_fx>
+		</state>
+		<state>
+			<sprite>003_01_note_open</sprite>
+			<mask_sprite>003_01_note_open-mask</mask_sprite>
+			<cursor>spt_cursor_hand</cursor>
+			<mode>Click</mode>
+			<hint_delta x="0" y="0"/>
+			<translate_bbt>ce_bbt_003_01_note</translate_bbt>
+			<position x="423" y="71" />
+			<layer>140</layer>
+			<iterate_effect>note_close_dr</iterate_effect>
+			<sound_fx>paper1_02</sound_fx>
+			<static_text_list>
+				<static_text>
+					<text>ce_003_01_note</text>
+					<font>data/fonts/notes/Cambria_60.ttfd</font>
+					<pos x="179" y="283" />
+					<size x="800" y="500" />
+					<align>TS_ALIGNHLEFT | TS_ALIGNHLEFT | TS_MULTILINE</align>
+					<color>ff000000</color>
+					<angle>350</angle>
+					<scale>0.409</scale>
+				</static_text> 
+				<static_text>
+					<text>ce_003_01_note_2</text>
+					<font>data/fonts/notes/Cambria_60.ttfd</font>
+					<pos x="421" y="667" />
+					<size x="600" y="150" />
+					<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+					<color>ff000000</color>
+					<angle>350</angle>
+					<scale>0.409</scale>
+				</static_text> 
+			</static_text_list>
+		</state>
+		<state>
+			<sprite>003_01_note_open</sprite>
+			<mask_sprite>003_01_note_open-mask</mask_sprite>
+			<cursor>spt_cursor_hand</cursor>
+			<position x="423" y="71" />
+			<layer>140</layer>
+			<add_resource>ce_003_01_note</add_resource>
+			<mode>WaitTimeWithHint</mode>
+			<mode_param>0.9</mode_param>
+			<static_text_list>
+				<static_text>
+					<text>ce_003_01_note</text>
+					<font>data/fonts/notes/Cambria_60.ttfd</font>
+					<pos x="179" y="283" />
+					<size x="800" y="500" />
+					<align>TS_ALIGNHLEFT | TS_ALIGNHLEFT | TS_MULTILINE</align>
+					<color>ff000000</color>
+					<angle>350</angle>
+					<scale>0.409</scale>
+				</static_text> 
+				<static_text>
+					<text>ce_003_01_note_2</text>
+					<font>data/fonts/notes/Cambria_60.ttfd</font>
+					<pos x="421" y="667" />
+					<size x="600" y="150" />
+					<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+					<color>ff000000</color>
+					<angle>350</angle>
+					<scale>0.409</scale>
+				</static_text> 
+			</static_text_list>
+		</state>
+		<state>
+		</state>
+	</states>
+	<anchor x="285" y="474"/>
+	<layer>20</layer>
+</object>

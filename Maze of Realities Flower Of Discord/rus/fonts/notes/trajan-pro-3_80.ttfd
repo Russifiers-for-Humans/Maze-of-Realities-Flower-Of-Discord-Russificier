@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<font>
+	<ttf_file>data/fonts/notes/trajan-pro-3.ttf</ttf_file>
+	<size>60</size>
+	
+	<!-- argb-->
+	<!-- <color>FFFFFFFF</color> -->
+</font>

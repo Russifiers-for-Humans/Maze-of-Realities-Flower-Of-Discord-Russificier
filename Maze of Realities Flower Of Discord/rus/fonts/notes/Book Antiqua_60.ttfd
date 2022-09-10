@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<font>
+	<ttf_file>data/fonts/notes/Book Antiqua.ttf</ttf_file>
+	<size>50</size>
+	
+	<!-- argb-->
+	<!-- <color>FFFFFFFF</color> -->
+</font>

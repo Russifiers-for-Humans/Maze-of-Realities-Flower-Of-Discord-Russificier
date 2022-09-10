@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Scene>
+	<life_time>0</life_time>
+	<block_scene>1</block_scene>
+	<Layers size="1">
+		<Layer>
+			<movie_avi>data/movies/gui/missclick.mp4</movie_avi>
+			<movie_avi_size>
+				<x>1366</x>
+				<y>768</y>
+			</movie_avi_size>
+			<create_anim_position x="0" y="0" />
+			<hot_spot>1</hot_spot><!-- 1 - center of the image; 0 - left top corner -->
+			<enable_time>0</enable_time>
+			<life_time>0</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>50000</alpha_disable_coeff>
+			<max_alpha>255</max_alpha>
+		</Layer>
+	</Layers>
+</Scene>

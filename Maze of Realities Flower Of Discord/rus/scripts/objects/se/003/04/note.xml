@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<object>
+	<name>003_04_note</name>
+	<name_desc>003_04_note</name_desc>
+	<type>003_04_note</type>
+	<states size="2">
+	   <state>
+			<sprite>003_04_note</sprite>
+			<mask_sprite>empty</mask_sprite>
+			<event>KILL_OBJECT</event>
+			<event_parameters>003_04_hairpin</event_parameters>
+			<static_text_list>
+				<static_text>
+					<text>003_04_note</text>
+					<font>data/fonts/notes/Segoe_Script_bold_30.fnt</font>
+					<pos x="419" y="576" />
+					<size x="350" y="450" />
+					<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+					<color>ff060008</color>
+					<angle>285</angle>
+					<scale>0.209</scale>
+				</static_text>
+				<static_text>
+					<text>003_04_note_2</text>
+					<font>data/fonts/notes/Segoe_Script_bold_30.fnt</font>
+					<pos x="584" y="313" />
+					<size x="100" y="50" />
+					<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+					<color>ff060008</color>
+					<angle>284</angle>
+					<scale>0.303</scale>
+				</static_text>
+			</static_text_list>
+        </state>
+		<state>
+			<sprite>003_04_note</sprite>
+			<mask_sprite>003_04_note-mask</mask_sprite>
+			<cursor>spt_cursor_hand</cursor>
+			<hint_delta x="0" y="0" />
+			<mode>Click</mode>
+			<iterate_effect>note_open</iterate_effect>
+			<fast_iterate>1</fast_iterate>
+			<static_text_list>
+				<static_text>
+					<text>003_04_note</text>
+					<font>data/fonts/notes/Segoe_Script_bold_30.fnt</font>
+					<pos x="419" y="576" />
+					<size x="350" y="450" />
+					<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+					<color>ff060008</color>
+					<angle>285</angle>
+					<scale>0.209</scale>
+				</static_text>
+				<static_text>
+					<text>003_04_note_2</text>
+					<font>data/fonts/notes/Segoe_Script_bold_30.fnt</font>
+					<pos x="584" y="313" />
+					<size x="100" y="50" />
+					<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+					<color>ff060008</color>
+					<angle>284</angle>
+					<scale>0.303</scale>
+				</static_text>
+			</static_text_list>
+			<sound_fx>purse_01</sound_fx>
+		</state>
+		<state>
+			<sprite>003_04_note_open</sprite>
+			<mask_sprite>003_04_note_open-mask</mask_sprite>
+			<hint_delta x="0" y="0" />
+			<position x="222" y="91" />
+			<cursor>spt_cursor_hand</cursor>
+			<mode>Click</mode>
+			<translate_bbt>bbt_003_04_click3</translate_bbt>
+			<iterate_effect>note_close_dr</iterate_effect>
+            <layer>140</layer>
+			<static_text_list>
+				<static_text>
+					<text>003_04_note</text>
+					<font>data/fonts/notes/Segoe_Script_bold_30.fnt</font>
+					<pos x="480" y="42" />
+					<size x="270" y="350" />
+					<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+					<color>ff060008</color>
+					<angle>358</angle>
+					<scale>1</scale>
+				</static_text>
+				<static_text>
+					<text>003_04_note_2</text>
+					<font>data/fonts/notes/Segoe_Script_bold_30.fnt</font>
+					<pos x="677" y="400" />
+					<size x="100" y="50" />
+					<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+					<color>ff060008</color>
+					<angle>358</angle>
+					<scale>1</scale>
+				</static_text>
+			</static_text_list> 
+			<sound_fx>purse_01</sound_fx>
+		</state>
+		<state>
+			<sprite>003_04_note_open</sprite>
+			<mask_sprite>003_04_note_open-mask</mask_sprite>
+			<hint_delta x="0" y="-0" />
+			<position x="222" y="91" />
+			<mode>WaitTimeWithHint</mode>
+			<mode_param>0.9</mode_param>
+			<add_resource>003_04_note</add_resource>
+            <layer>140</layer>
+			<static_text_list>
+				<static_text>
+					<text>003_04_note</text>
+					<font>data/fonts/notes/Segoe_Script_bold_30.fnt</font>
+					<pos x="480" y="42" />
+					<size x="270" y="350" />
+					<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+					<color>ff060008</color>
+					<angle>358</angle>
+					<scale>1</scale>
+				</static_text>
+				<static_text>
+					<text>003_04_note_2</text>
+					<font>data/fonts/notes/Segoe_Script_bold_30.fnt</font>
+					<pos x="677" y="400" />
+					<size x="100" y="50" />
+					<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+					<color>ff060008</color>
+					<angle>358</angle>
+					<scale>1</scale>
+				</static_text>
+			</static_text_list> 
+		</state>
+		<state>
+		</state>
+	</states>
+	<anchor x="248" y="425"/>
+	<layer>40</layer>
+</object>

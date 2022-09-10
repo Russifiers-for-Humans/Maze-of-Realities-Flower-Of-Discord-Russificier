@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<object>
+	<name>001_04_notes</name>
+	<name_desc>001_04_notes</name_desc>
+	<type>001_04_notes</type>
+	<states size="1">
+		<state>
+			<sprite>001_04_notes</sprite>
+			<mask_sprite>empty</mask_sprite>
+			<static_text_list>
+				<static_text>
+					<text>001_04_notes_4</text>
+					<font>data/fonts/notes/trajan-pro-3.ttfd</font>
+					<pos x="-25" y="58" />
+					<size x="300" y="300" />
+					<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+					<color>ff52025b</color>
+					<angle>345</angle>
+					<scale>0.575</scale>
+				</static_text>
+				<static_text>
+					<text>001_04_notes_3</text>
+					<font>data/fonts/notes/P22 Cezanne Pro.ttfd</font>
+					<pos x="7" y="218" />
+					<size x="300" y="200" />
+					<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+					<color>ff141448</color>
+					<angle>326</angle>
+					<scale>0.563</scale>
+				</static_text>				
+			</static_text_list> 
+			<event>ITERATE_OBJECT</event>
+			<event_parameters>001_04_map|2</event_parameters>			
+		</state>
+		<state>
+			<sprite>001_04_notes</sprite>
+			<mask_sprite>001_04_notes-mask</mask_sprite>
+			<cursor>spt_cursor_hand</cursor>
+			<hint_delta x="0" y="0" />
+			<mode>Click</mode>
+			<static_text_list>
+				<static_text>
+					<text>001_04_notes_4</text>
+					<font>data/fonts/notes/trajan-pro-3.ttfd</font>
+					<pos x="-25" y="58" />
+					<size x="300" y="300" />
+					<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+					<color>ff52025b</color>
+					<angle>345</angle>
+					<scale>0.575</scale>
+				</static_text>
+				<static_text>
+					<text>001_04_notes_3</text>
+					<font>data/fonts/notes/P22 Cezanne Pro.ttfd</font>
+					<pos x="7" y="218" />
+					<size x="300" y="200" />
+					<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+					<color>ff141448</color>
+					<angle>326</angle>
+					<scale>0.563</scale>
+				</static_text>					
+			</static_text_list>  
+			<iterate_effect>note_open</iterate_effect>
+			<fast_iterate>1</fast_iterate>			
+			<sound_fx>paper_01</sound_fx>
+		</state>
+		<state>
+			<sprite>001_04_notes_open</sprite>
+			<mask_sprite>001_04_notes_open-mask</mask_sprite>
+			<position x="252" y="80" />
+			<cursor>spt_cursor_hand-finger</cursor>
+			<hint_delta x="0" y="0" />
+			<mode>Click</mode>			
+			<static_text_list>
+				<static_text>
+					<text>001_04_notes_4</text>
+					<font>data/fonts/notes/trajan-pro-3_80.ttfd</font>
+					<pos x="440" y="282" />
+					<size x="300" y="300" />
+					<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+					<color>ff52025b</color>
+					<angle>343</angle>
+					<scale>0.686</scale>
+				</static_text>
+				<static_text>
+					<text>001_04_notes_3</text>
+					<font>data/fonts/notes/P22 Cezanne Pro_80.ttfd</font>
+					<pos x="351" y="386" />
+					<size x="300" y="200" />
+					<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+					<color>ff141448</color>
+					<angle>326</angle>
+					<scale>0.859</scale>
+				</static_text>				
+			</static_text_list> 
+			<fast_iterate>1</fast_iterate>	
+			<sound_fx>purse_01</sound_fx>	
+			<translate_movie>001_04_notes_click</translate_movie>	
+		</state>
+		<state>
+			<event>END_MOVIE</event>
+			<event_parameters>001_04_notes_click</event_parameters>
+		</state>
+		<state>
+			<sprite>001_04_notes_open_2</sprite>
+			<mask_sprite>001_04_notes_open-mask_2</mask_sprite>
+			<hint_delta x="0" y="-0" />
+			<position x="273" y="60" />
+			<cursor>spt_cursor_hand</cursor>
+			<mode>Click</mode>
+			<iterate_effect>note_close_dr</iterate_effect>
+			<translate_bbt>bbt_001_04_notes</translate_bbt>
+            <layer>140</layer>
+			<sound_fx>paper_01</sound_fx>
+			<static_text_list>
+				<static_text>
+					<text>001_04_notes</text>
+					<font>data/fonts/notes/Adventure_30.ttfd</font>
+					<pos x="206" y="241" />
+					<size x="300" y="300" />
+					<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+					<color>ff141448</color>
+					<angle>348</angle>
+					<scale>0.718</scale>
+				</static_text>
+				<static_text>
+					<text>001_04_notes_2</text>
+					<font>data/fonts/notes/Adventure_30.ttfd</font>
+					<pos x="550" y="153" />
+					<size x="250" y="400" />
+					<align>TS_ALIGNHLEFT | TS_ALIGNVLEFT | TS_MULTILINE</align>
+					<color>ff141448</color>
+					<angle>345</angle>
+					<scale>0.778</scale>
+				</static_text>
+				<static_text>
+					<text>001_04_notes_3</text>
+					<font>data/fonts/notes/Adventure_30.ttfd</font>
+					<pos x="618" y="389" />
+					<size x="100" y="40" />
+					<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+					<color>ff141448</color>
+					<angle>343</angle>
+					<scale>1</scale>
+				</static_text>
+			</static_text_list> 			
+		</state>
+		<state>
+			<sprite>001_04_notes_open_2</sprite>
+			<mask_sprite>001_04_notes_open-mask_2</mask_sprite>
+			<hint_delta x="0" y="-0" />
+			<position x="273" y="60" />
+			<cursor>spt_cursor_hand</cursor>
+			<mode>WaitTimeWithHint</mode>
+			<mode_param>0.9</mode_param>
+			<add_resource>001_04_note</add_resource>
+            <layer>140</layer>
+			<static_text_list>
+				<static_text>
+					<text>001_04_notes</text>
+					<font>data/fonts/notes/Adventure_30.ttfd</font>
+					<pos x="206" y="241" />
+					<size x="300" y="300" />
+					<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+					<color>ff141448</color>
+					<angle>347</angle>
+					<scale>0.718</scale>
+				</static_text>
+				<static_text>
+					<text>001_04_notes_2</text>
+					<font>data/fonts/notes/Adventure_30.ttfd</font>
+					<pos x="550" y="153" />
+					<size x="250" y="400" />
+					<align>TS_ALIGNHLEFT | TS_ALIGNVLEFT | TS_MULTILINE</align>
+					<color>ff141448</color>
+					<angle>343</angle>
+					<scale>0.778</scale>
+				</static_text>
+				<static_text>
+					<text>001_04_notes_3</text>
+					<font>data/fonts/notes/Adventure_30.ttfd</font>
+					<pos x="618" y="389" />
+					<size x="100" y="40" />
+					<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+					<color>ff141448</color>
+					<angle>343</angle>
+					<scale>1</scale>
+				</static_text>
+			</static_text_list> 	
+		</state>
+		<state>
+		</state>
+	</states>
+	<anchor x="430" y="380"/>
+	<layer>113</layer>
+</object>
+

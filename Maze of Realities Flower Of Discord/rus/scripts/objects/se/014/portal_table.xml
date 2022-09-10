@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<object>
+	<name>014_portal_table</name>
+	<name_desc>014_portal_table</name_desc>
+	<type>014_portal_table</type>
+	<states size="1">
+		<state>
+			<sprite>014_portal_table</sprite>
+			<mask_sprite>014_portal_table-mask</mask_sprite>
+			<cursor>spt_cursor_lupa-shest</cursor>	
+			<mode>Click</mode>
+			<hint_delta x="0" y="0"/>
+			<fast_iterate>1</fast_iterate>
+			<iterate_effect>note_open</iterate_effect>
+			<layer>70</layer>
+			<static_text_list>
+				<static_text>
+					<text>text_014_portal_table_text</text>
+					<font>data/fonts/notes/YuGothB_30.ttfd</font>
+					<pos x="46" y="59" />
+					<size x="350" y="140" />
+					<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+					<color>ff131727</color>
+					<angle>19</angle>
+					<scale>0.380</scale>	
+					<skew x="-0.015" y="0.228"/>						
+				</static_text> 
+			</static_text_list>		
+			<sound_fx>ad_stone7_2</sound_fx>	
+		</state>
+		<state>
+			<sprite>014_portal_table_open</sprite>
+			<mask_sprite>014_portal_table_open-mask</mask_sprite>			
+			<cursor>spt_cursor_lupa-shest</cursor>	
+			<mode>Click</mode>
+			<hint_delta x="0" y="0"/>				
+			<position x="329" y="149" />
+			<layer>140</layer>
+			<iterate_effect>note_close</iterate_effect>
+			<static_text_list>
+				<static_text>
+					<text>text_014_portal_table_text</text>
+					<font>data/fonts/notes/YuGothB_80.ttfd</font>
+					<pos x="79" y="334" />
+					<size x="900" y="250" />
+					<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+					<color>ff131727</color>
+					<angle>356</angle>
+					<scale>0.419</scale>	
+					<skew x="0.135" y="0.019"/>				
+				</static_text> 
+			</static_text_list>			
+			<sound_fx>ad_stone7_2</sound_fx>	
+		</state>
+		<state>
+			<sprite>014_portal_table_open</sprite>
+			<mask_sprite>014_portal_table_open-mask</mask_sprite>			
+			<cursor>spt_cursor_lupa-shest</cursor>	
+			<hint_delta x="0" y="0"/>				
+			<layer>140</layer>				
+			<position x="329" y="149" />			
+			<mode>WaitTimeWithHint</mode>
+			<mode_param>0.9</mode_param>
+			<fast_iterate>1</fast_iterate>
+			<jump_to_state>0</jump_to_state>
+			<static_text_list>
+				<static_text>
+					<text>text_014_portal_table_text</text>
+					<font>data/fonts/notes/YuGothB_80.ttfd</font>
+					<pos x="79" y="334" />
+					<size x="900" y="250" />
+					<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+					<color>ff131727</color>
+					<angle>356</angle>
+					<scale>0.419</scale>	
+					<skew x="0.135" y="0.019"/>				
+				</static_text> 
+			</static_text_list>					
+		</state>
+		<state>
+		</state>
+	</states>
+	<decorate>1</decorate>
+	<layer>70</layer>
+	<anchor x="20" y="0"/>
+</object>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<font>
+	<ttf_file>data/fonts/notes/YuGothB.ttf</ttf_file>
+	<size>70</size>
+	
+	<!-- argb-->
+	<!-- <color>FFFFFFFF</color> -->
+</font>

@@ -1,0 +1,716 @@
+<?xml version="1.0" ?>
+<Collections>
+	<Collection name="closed_page">
+		<image>
+			<ctrl>content_closed</ctrl>
+			<pos x="378" y="230"/>
+			<sprite_name>content_closed</sprite_name>
+		</image>
+	</Collection>
+
+	<Collection name="001_04_note">
+		<location>0</location>
+		<textbox>
+			<ctrl>text_01</ctrl>
+			<open>1</open>
+			<text>001_04_notes</text>
+			<font>data/fonts/notes/Adventure_30.ttfd</font>
+			<pos x="24" y="119" />
+			<size x="270" y="300" />
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<angle>348</angle>
+			<text_scale>0.823</text_scale>
+			<color>ff141448</color>
+		</textbox>
+		<textbox>
+			<ctrl>text_02</ctrl>
+			<open>1</open>
+			<text>001_04_notes_2</text>
+			<font>data/fonts/notes/Adventure_30.ttfd</font>
+			<pos x="307" y="67" />
+			<size x="250" y="400" />
+			<style>TS_ALIGNHLEFT | TS_ALIGNVLEFT | TS_MULTILINE</style>
+			<angle>343</angle>	
+			<text_scale>0.823</text_scale>
+			<color>ff141448</color>
+		</textbox>
+		<textbox>
+			<ctrl>text_03</ctrl>
+			<open>1</open>
+			<text>001_04_notes_3</text>
+			<font>data/fonts/notes/Adventure_30.ttfd</font>
+			<pos x="517" y="331" />
+			<size x="100" y="40" />
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<angle>343</angle>	
+			<text_scale>1</text_scale>
+			<color>ff141448</color>
+		</textbox>
+		<image>
+			<ctrl>notepage_image_01</ctrl>
+			<pos x="329" y="92"/>
+			<sprite_name>note_001_04</sprite_name>
+		</image>
+	</Collection>
+
+	<Collection name="002_03_note">
+		<location>0</location>
+		<textbox>
+			<ctrl>text_01</ctrl>
+			<open>1</open>
+			<text>002_03_note</text>
+			<font>data/fonts/notes/segoeui25.ttfd</font>
+			<pos x="11" y="39" />
+			<size x="350" y="150" />
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<angle>354</angle>
+			<text_scale>1</text_scale>
+			<color>ff03091a</color>
+		</textbox>
+		<textbox>
+			<ctrl>text_02</ctrl>
+			<open>1</open>
+			<text>002_03_note_2</text>
+			<font>data/fonts/notes/segoeui25.ttfd</font>
+			<pos x="299" y="270" />
+			<size x="100" y="40" />
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<angle>354</angle>	
+			<text_scale>1</text_scale>
+			<color>ff03091a</color>
+		</textbox>
+		<image>
+			<ctrl>notepage_image_01</ctrl>
+			<pos x="277" y="140"/>
+			<sprite_name>note_002_03</sprite_name>
+		</image>
+	</Collection>
+
+	<Collection name="003_04_note">
+		<location>0</location>
+		<textbox>
+			<ctrl>text_01</ctrl>
+			<open>1</open>
+			<text>003_04_note</text>
+			<font>data/fonts/notes/Segoe_Script_bold_30.fnt</font>
+			<pos x="306" y="19" />
+			<size x="265" y="350" />
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<angle>358</angle>
+			<text_scale>0.8</text_scale>
+			<color>ff060008</color>
+		</textbox>
+		<textbox>
+			<ctrl>text_02</ctrl>
+			<open>1</open>
+			<text>003_04_note_2</text>
+			<font>data/fonts/notes/Segoe_Script_bold_30.fnt</font>
+			<pos x="469" y="328" />
+			<size x="100" y="40" />
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<angle>-3</angle>	
+			<text_scale>0.8</text_scale>
+			<color>ff060008</color>
+		</textbox>
+		<image>
+			<ctrl>notepage_image_01</ctrl>
+			<pos x="361" y="114"/>
+			<sprite_name>note_003_04</sprite_name>
+		</image>
+	</Collection>
+
+	<Collection name="007_05_photo">
+		<location>0</location>
+		<textbox>
+			<ctrl>text_01</ctrl>
+			<open>1</open>
+			<text>007_05_photo</text>
+			<font>data/fonts/notes/Lobster22.ttfd</font>
+			<pos x="32" y="2" />
+			<size x="370" y="70" />
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<angle>0</angle>
+			<text_scale>1</text_scale>
+			<color>ff14000b</color>
+		</textbox>
+		<image>
+			<ctrl>notepage_image_01</ctrl>
+			<pos x="661" y="174"/>
+			<sprite_name>note_007_05</sprite_name>
+		</image>
+	</Collection>
+
+	<Collection name="010_01_note">
+		<location>0</location>
+		<textbox>
+			<ctrl>text_01</ctrl>
+			<open>1</open>
+			<text>010_01_note</text>
+			<font>data/fonts/notes/Adventure_70.ttfd</font>
+			<pos x="-7" y="21" />
+			<size x="1000" y="140" />
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<angle>0</angle>
+			<text_scale>0.341</text_scale>
+			<color>ff590513</color>
+		</textbox>
+		<textbox>
+			<ctrl>text_02</ctrl>
+			<open>1</open>
+			<text>010_01_note_2</text>
+			<font>data/fonts/notes/Adventure_60.ttfd</font>
+			<pos x="3" y="79" />
+			<size x="1000" y="600" />
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<angle>0</angle>
+			<text_scale>0.320</text_scale>
+			<color>ff050d59</color>
+		</textbox>
+		<textbox>
+			<ctrl>text_03</ctrl>
+			<open>1</open>
+			<text>010_01_note_3</text>
+			<font>data/fonts/notes/Adventure_60.ttfd</font>
+			<pos x="159" y="261" />
+			<size x="500" y="70" />
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<angle>0</angle>
+			<text_scale>0.338</text_scale>
+			<color>ff590513</color>
+		</textbox>
+		<image>
+			<ctrl>notepage_image_01</ctrl>
+			<pos x="297" y="97"/>
+			<sprite_name>note_010_01</sprite_name>
+		</image>
+	</Collection>
+
+	<Collection name="011_06_note">
+		<location>0</location>
+		<textbox>
+			<ctrl>text_01</ctrl>
+			<open>1</open>
+			<text>text_011_06_note_open</text>
+			<font>data/fonts/notes/Ench_50.ttfd</font>
+			<pos x="27" y="41" />
+			<size x="400" y="250" />
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<angle>0</angle>
+			<text_scale>0.612</text_scale>
+			<color>ff000000</color>
+		</textbox>
+		<textbox>
+			<ctrl>text_02</ctrl>
+			<open>1</open>
+			<text>text_011_06_note_open_2</text>
+			<font>data/fonts/notes/Ench_50.ttfd</font>
+			<pos x="143" y="220" />
+			<size x="300" y="50" />
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<angle>0</angle>
+			<text_scale>0.454</text_scale>
+			<color>ff000000</color>
+		</textbox>
+		<image>
+			<ctrl>notepage_image_01</ctrl>
+			<pos x="687" y="97"/>
+			<sprite_name>note_011_06</sprite_name>
+		</image>
+	</Collection>
+
+	<Collection name="012_01_map">
+		<location>0</location>
+		<textbox>
+			<ctrl>text_01</ctrl>
+			<open>1</open>
+			<text>text_012_01_map</text>
+			<font>data/fonts/notes/Althea_40.ttfd</font>
+			<pos x="13" y="12" />
+			<size x="600" y="200" />
+			<style>TS_ALIGNHLEFT | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<angle>0</angle>
+			<text_scale>0.586</text_scale>
+			<color>ff1a0d24</color>
+		</textbox>
+		<textbox>
+			<ctrl>text_02</ctrl>
+			<open>1</open>
+			<text>text_012_01_map_2</text>
+			<font>data/fonts/notes/Althea_40.ttfd</font>
+			<pos x="-5" y="148" />
+			<size x="670" y="80" />
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<angle>0</angle>
+			<text_scale>0.541</text_scale>
+			<color>ff1a0d24</color>
+		</textbox>
+		<image>
+			<ctrl>notepage_image_01</ctrl>
+			<pos x="297" y="212"/>
+			<sprite_name>note_012_01</sprite_name>
+		</image>
+	</Collection>
+
+	<Collection name="013_06_note">
+		<location>0</location>
+		<textbox>
+			<ctrl>text_01</ctrl>
+			<open>1</open>
+			<text>013_06_note_1</text>
+			<font>data/fonts/notes/Segoe Script_80.fnt</font>
+			<pos x="105" y="8" />
+			<size x="300" y="100" />
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<angle>4</angle>
+			<text_scale>0.589</text_scale>
+			<color>ff332c4e</color>
+		</textbox>
+		<textbox>
+			<ctrl>text_02</ctrl>
+			<open>1</open>
+			<text>013_06_note_2</text>
+			<font>data/fonts/notes/Segoe Script_80.fnt</font>
+			<pos x="46" y="53" />
+			<size x="800" y="300" />
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<angle>3</angle>
+			<text_scale>0.363</text_scale>
+			<color>ff332c4e</color>
+		</textbox>
+		<textbox>
+			<ctrl>text_03</ctrl>
+			<open>1</open>
+			<text>013_06_note_3</text>
+			<font>data/fonts/notes/Segoe Script_80.fnt</font>
+			<pos x="133" y="347" />
+			<size x="600" y="100" />
+			<style>TS_ALIGNHLEFT | TS_ALIGNVLEFT | TS_MULTILINE</style>
+			<angle>357</angle>
+			<text_scale>0.336</text_scale>
+			<color>ff332c4e</color>
+		</textbox>
+		<image>
+			<ctrl>notepage_image_01</ctrl>
+			<pos x="677" y="144"/>
+			<sprite_name>note_013_06</sprite_name>
+		</image>
+	</Collection>
+
+	<Collection name="019_01_note">
+		<location>0</location>
+		<textbox>
+			<ctrl>text_01</ctrl>
+			<open>1</open>
+			<text>019_01_note</text>
+			<font>data/fonts/notes/palab22.ttfd</font>
+			<pos x="66" y="181" />
+			<size x="550" y="150" />
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<angle>345</angle>
+			<text_scale>0.724</text_scale>
+			<color>ff273e43</color>
+		</textbox>
+		<image>
+			<ctrl>notepage_image_01</ctrl>
+			<pos x="363" y="97"/>
+			<sprite_name>note_019_01</sprite_name>
+		</image>
+	</Collection>
+
+	<Collection name="019_01_note_2">
+		<location>0</location>
+		<textbox>
+			<ctrl>text_01</ctrl>
+			<open>1</open>
+			<text>019_01_note_2</text>
+			<font>data/fonts/notes/palab22.ttfd</font>
+			<pos x="18" y="111" />
+			<size x="230" y="150" />
+			<style>TS_ALIGNHLEFT | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<angle>0</angle>
+			<text_scale>0.565</text_scale>
+			<color>ff273e43</color>
+		</textbox>
+		<textbox>
+			<ctrl>text_02</ctrl>
+			<open>1</open>
+			<text>019_01_note_3</text>
+			<font>data/fonts/notes/palab22.ttfd</font>
+			<pos x="34" y="248" />
+			<size x="200" y="200" />
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<angle>1</angle>
+			<text_scale>0.555</text_scale>
+			<color>ff273e43</color>
+		</textbox>
+		<textbox>
+			<ctrl>text_03</ctrl>
+			<open>1</open>
+			<text>019_01_note_4</text>
+			<font>data/fonts/notes/palab22.ttfd</font>
+			<pos x="278" y="63" />
+			<size x="300" y="150" />
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<angle>0</angle>
+			<text_scale>0.962</text_scale>
+			<color>ff273e43</color>
+		</textbox>
+		<image>
+			<ctrl>notepage_image_01</ctrl>
+			<pos x="333" y="91"/>
+			<sprite_name>note_019_01_02</sprite_name>
+		</image>
+	</Collection>
+
+	<Collection name="025_03_note">
+		<location>0</location>
+		<textbox>
+			<ctrl>text_01</ctrl>
+			<open>1</open>
+			<text>025_03_note</text>
+			<font>data/fonts/notes/Segoe Script_80.fnt</font>
+			<pos x="30" y="25" />
+			<size x="700" y="550" />
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<angle>0</angle>
+			<text_scale>0.4</text_scale>
+			<color>ff051830</color>
+		</textbox>
+		<textbox>
+			<ctrl>text_02</ctrl>
+			<open>1</open>
+			<text>025_03_note_2</text>
+			<font>data/fonts/notes/Segoe Script_80.fnt</font>
+			<pos x="38" y="262" />
+			<size x="800" y="70" />
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<angle>1</angle>
+			<text_scale>0.322</text_scale>
+			<color>ff051830</color>
+		</textbox>
+		<image>
+			<ctrl>notepage_image_01</ctrl>
+			<pos x="298" y="86"/>
+			<sprite_name>note_025_03</sprite_name>
+		</image>
+	</Collection>
+
+	<!-- ce -->
+	<Collection name="ce_001_02_note">
+		<location>1</location>
+		<textbox>
+			<ctrl>text_01</ctrl>
+			<open>1</open>
+			<text>ce_001_02_note</text>
+			<font>data/fonts/notes/BLKCHCRY_50.ttfd</font>
+			<pos x="89" y="50" />
+			<size x="1000" y="300" />
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<color>ff000000</color>
+			<angle>358</angle>
+			<text_scale>0.499</text_scale>
+		</textbox>
+		<textbox>
+			<ctrl>text_02</ctrl>
+			<open>1</open>
+			<text>ce_001_02_note_2</text>
+			<font>data/fonts/notes/BLKCHCRY_50.ttfd</font>
+			<pos x="410" y="298" />
+			<size x="250" y="150" />
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<color>ff000000</color>
+			<angle>357</angle>
+			<text_scale>0.553</text_scale>
+		</textbox>
+		<image>
+			<ctrl>notepage_image_01</ctrl>
+			<pos x="296" y="92"/>
+			<sprite_name>note_ce_001_02</sprite_name>
+		</image>
+	</Collection>
+
+	<Collection name="ce_001_04_note">
+		<location>1</location>
+		<textbox>
+			<ctrl>text_01</ctrl>
+			<open>1</open>
+			<text>ce_001_04_note</text>
+			<font>data/fonts/notes/Cambria_60.ttfd</font>
+			<pos x="20" y="7" />
+			<size x="900" y="300" />
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<color>ff000000</color>
+			<angle>0</angle>
+			<text_scale>0.342</text_scale>
+		</textbox>
+		<textbox>
+			<ctrl>text_02</ctrl>
+			<open>1</open>
+			<text>ce_001_04_note_2</text>
+			<font>data/fonts/notes/Cambria_60.ttfd</font>
+			<pos x="200" y="156" />
+			<size x="250" y="90" />
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<color>ff000000</color>
+			<angle>327</angle>
+			<text_scale>0.3</text_scale>
+		</textbox>
+		<image>
+			<ctrl>notepage_image_01</ctrl>
+			<pos x="296" y="92"/>
+			<sprite_name>note_ce_001_04</sprite_name>
+		</image>
+	</Collection>
+
+	<Collection name="ce_003_01_note">
+		<location>1</location>
+		<textbox>
+			<ctrl>text_01</ctrl>
+			<open>1</open>
+			<text>ce_003_01_note</text>
+			<font>data/fonts/notes/Cambria_60.ttfd</font>
+			<pos x="20" y="94" />
+			<size x="800" y="400" />
+			<style>TS_ALIGNHLEFT | TS_ALIGNHLEFT | TS_MULTILINE</style>
+			<color>ff000000</color>
+			<angle>350</angle>
+			<text_scale>0.343</text_scale>
+		</textbox>
+		<textbox>
+			<ctrl>text_02</ctrl>
+			<open>1</open>
+			<text>ce_003_01_note_2</text>
+			<font>data/fonts/notes/Cambria_60.ttfd</font>
+			<pos x="124" y="233" />
+			<size x="600" y="150" />
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<color>ff000000</color>
+			<angle>350</angle>
+			<text_scale>0.343</text_scale>
+		</textbox>
+		<image>
+			<ctrl>notepage_image_01</ctrl>
+			<pos x="694" y="99"/>
+			<sprite_name>note_ce_003_01</sprite_name>
+		</image>
+	</Collection>
+
+	<Collection name="ce_004_03_note">
+		<location>1</location>
+		<textbox>
+			<ctrl>text_01</ctrl>
+			<open>1</open>
+			<text>ce_004_03_note</text>
+			<font>data/fonts/notes/Monotype_Corsiva35.ttfd</font>
+			<pos x="61" y="79" />
+			<size x="300" y="300" />
+			<style>TS_ALIGNHCENTER | TS_ALIGNHCENTER | TS_MULTILINE</style>
+			<color>ff000000</color>
+			<angle>3</angle>
+			<text_scale>0.562</text_scale>
+		</textbox>
+		<textbox>
+			<ctrl>text_02</ctrl>
+			<open>1</open>
+			<text>ce_004_03_note2</text>
+			<font>data/fonts/notes/Monotype_Corsiva35.ttfd</font>
+			<pos x="134" y="309" />
+			<size x="100" y="50" />
+			<style>TS_ALIGNHLEFT | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<color>ff000000</color>
+			<angle>2</angle>
+			<text_scale>0.763</text_scale>
+		</textbox>
+		<image>
+			<ctrl>notepage_image_01</ctrl>
+			<pos x="319" y="93"/>
+			<sprite_name>note_ce_004_03</sprite_name>
+		</image>
+	</Collection>
+
+	<Collection name="ce_005_02_note">
+		<location>1</location>
+		<textbox>
+			<ctrl>text_01</ctrl>
+			<open>1</open>
+			<text>ce_005_02_note</text>
+			<font>data/fonts/notes/Andantino-script_50.ttfd</font>
+			<pos x="53" y="58" />
+			<size x="450" y="300" />
+			<style>TS_ALIGNHCENTER | TS_ALIGNHCENTER | TS_MULTILINE</style>
+			<color>ff1e0e14</color>
+			<angle>-1</angle>
+			<text_scale>0.470</text_scale>
+		</textbox>
+		<textbox>
+			<ctrl>text_02</ctrl>
+			<open>1</open>
+			<text>ce_005_02_note2</text>
+			<font>data/fonts/notes/Andantino-script_50.ttfd</font>
+			<pos x="168" y="213" />
+			<size x="300" y="100" />
+			<style>TS_ALIGNHLEFT | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<color>ff1e0e14</color>
+			<angle>0</angle>
+			<text_scale>0.426</text_scale>
+		</textbox>
+		<image>
+			<ctrl>notepage_image_01</ctrl>
+			<pos x="673" y="106"/>
+			<sprite_name>note_ce_005_02</sprite_name>
+		</image>
+	</Collection>
+
+	<Collection name="ce_006_03_note">
+		<location>1</location>
+		<textbox>
+			<ctrl>text_01</ctrl>
+			<open>1</open>
+			<text>ce_006_03_note_1</text>
+			<font>data/fonts/notes/Andantino-script_50.ttfd</font>
+			<pos x="44" y="263" />
+			<size x="300" y="100" />
+			<style>TS_ALIGNHCENTER | TS_ALIGNHCENTER | TS_MULTILINE</style>
+			<color>ff00213c</color>
+			<angle>0</angle>
+			<text_scale>0.698</text_scale>
+		</textbox>
+		<textbox>
+			<ctrl>text_02</ctrl>
+			<open>1</open>
+			<text>ce_006_03_note_2</text>
+			<font>data/fonts/notes/Andantino-script_50.ttfd</font>
+			<pos x="176" y="342" />
+			<size x="120" y="50" />
+			<style>TS_ALIGNVCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<color>ff00213c</color>
+			<angle>-2</angle>
+			<text_scale>0.807</text_scale>
+		</textbox>
+		<image>
+			<ctrl>notepage_image_01</ctrl>
+			<pos x="309" y="88"/>
+			<sprite_name>note_ce_006_03</sprite_name>
+		</image>
+	</Collection>
+
+	<Collection name="ce_007_01_note">
+		<location>1</location>
+		<textbox>
+			<ctrl>text_01</ctrl>
+			<open>1</open>
+			<text>ce_007_01_note_1</text>
+			<font>data/fonts/notes/Book Antiqua_60.ttfd</font>
+			<pos x="87" y="94" />
+			<size x="650" y="200" />
+			<style>TS_ALIGNHLEFT | TS_ALIGNHLEFT | TS_MULTILINE</style>
+			<color>ff061520</color>
+			<angle>0</angle>
+			<text_scale>0.423</text_scale>
+		</textbox>
+		<textbox>
+			<ctrl>text_02</ctrl>
+			<open>1</open>
+			<text>ce_007_01_note_2</text>
+			<font>data/fonts/notes/Book Antiqua_60.ttfd</font>
+			<pos x="199" y="351" />
+			<size x="400" y="100" />
+			<style>TS_ALIGNHLEFT | TS_ALIGNHLEFT | TS_MULTILINE</style>
+			<color>ff061520</color>
+			<angle>0</angle>
+			<text_scale>0.498</text_scale>
+		</textbox>
+		<image>
+			<ctrl>notepage_image_01</ctrl>
+			<pos x="239" y="79"/>
+			<sprite_name>note_ce_007_01</sprite_name>
+		</image>
+	</Collection>
+
+	<Collection name="ce_007_04_note">
+		<location>1</location>
+		<image>
+			<ctrl>notepage_image_01</ctrl>
+			<pos x="703" y="147"/>
+			<sprite_name>note_ce_007_04</sprite_name>
+		</image>
+	</Collection>
+
+	<Collection name="ce_008_01_note">
+		<location>1</location>
+		<textbox>
+			<ctrl>text_01</ctrl>
+			<open>1</open>
+			<text>ce_008_01_note</text>
+			<font>data/fonts/notes/Arnopro48.ttfd</font>
+			<pos x="139" y="10" />
+			<size x="550" y="350" />
+			<style>TS_ALIGNHCENTER | TS_ALIGNHCENTER | TS_MULTILINE</style>
+			<color>ff290024</color>
+			<angle>5</angle>
+			<text_scale>0.405</text_scale>
+		</textbox>
+		<image>
+			<ctrl>notepage_image_01</ctrl>
+			<pos x="290" y="187"/>
+			<sprite_name>note_ce_008_01</sprite_name>
+		</image>
+	</Collection>
+
+	<Collection name="ce_009_04_note">
+		<location>1</location>
+		<textbox>
+			<ctrl>text_01</ctrl>
+			<open>1</open>
+			<text>ce_009_04_note</text>
+			<font>data/fonts/notes/Gabriola_37.ttfd</font>
+			<pos x="17" y="84" />
+			<size x="500" y="200" />
+			<style>TS_ALIGNHCENTER | TS_ALIGNHCENTER | TS_MULTILINE</style>
+			<color>ff000000</color>
+			<angle>1</angle>
+			<text_scale>0.575</text_scale>
+		</textbox>
+		<textbox>
+			<ctrl>text_02</ctrl>
+			<open>1</open>
+			<text>ce_009_04_note_2</text>
+			<font>data/fonts/notes/Gabriola_37.ttfd</font>
+			<pos x="187" y="183" />
+			<size x="150" y="70" />
+			<style>TS_ALIGNHCENTER | TS_ALIGNHCENTER | TS_MULTILINE</style>
+			<color>ff000000</color>
+			<angle>1</angle>
+			<text_scale>0.717</text_scale>
+		</textbox>
+		<image>
+			<ctrl>notepage_image_01</ctrl>
+			<pos x="666" y="123"/>
+			<sprite_name>note_ce_009_04</sprite_name>
+		</image>
+	</Collection>
+
+	<Collection name="ce_010_03_note">
+		<location>1</location>
+		<textbox>
+			<ctrl>text_01</ctrl>
+			<open>1</open>
+			<text>ce_010_03_note</text>
+			<font>data/fonts/notes/Palatino_Linotype_24.ttfd</font>
+			<pos x="86" y="91" />
+			<size x="230" y="100" />
+			<style>TS_ALIGNHCENTER | TS_ALIGNHCENTER | TS_MULTILINE</style>
+			<color>ff002056</color>
+			<angle>0</angle>
+			<text_scale>1</text_scale>
+		</textbox>
+		<image>
+			<ctrl>notepage_image_01</ctrl>
+			<pos x="294" y="196"/>
+			<sprite_name>note_ce_010_03</sprite_name>
+		</image>
+	</Collection>
+
+	
+
+</Collections>
